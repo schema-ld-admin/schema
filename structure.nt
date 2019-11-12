@@ -3,6 +3,6 @@
 <https://schema.ld.admin.ch/office/bar/test> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
 <https://schema.ld.admin.ch/office/bar> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar/test> .
 <https://schema.ld.admin.ch/office/bar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/bar> <http://www.w3.org/2000/01/rdf-schema#label> "Archival Classes" .
+<https://schema.ld.admin.ch/office/bar> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Federal Archives" .
 <https://schema.ld.admin.ch/groups> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
 <https://schema.ld.admin.ch/groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
