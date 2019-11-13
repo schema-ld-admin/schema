@@ -1,28 +1,23 @@
-<https://schema.ld.admin.ch/office/bar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/bar> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Federal Archives" .
-
 <https://schema.ld.admin.ch/office/bafu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/bafu> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Office for the Environment" .
-
-<https://schema.ld.admin.ch/office/bk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/bk> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Chancellery" .
-
+<https://schema.ld.admin.ch/office/bar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.ld.admin.ch/office/bar> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Federal Archives" .
 <https://schema.ld.admin.ch/office/bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/bfs> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Statistical Office" .
-
+<https://schema.ld.admin.ch/office/bk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.ld.admin.ch/office/bk> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Chancellery" .
+<https://schema.ld.admin.ch/offices> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bafu> .
+<https://schema.ld.admin.ch/offices> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
 <https://schema.ld.admin.ch/offices> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bfs> .
 <https://schema.ld.admin.ch/offices> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bk> .
-<https://schema.ld.admin.ch/offices> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
-<https://schema.ld.admin.ch/offices> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bafu> .
-<https://schema.ld.admin.ch/offices> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Offices" .
-<https://schema.ld.admin.ch/offices> <http://www.w3.org/2000/01/rdf-schema#comment> "Every class of the Swiss Federal Linked Data Schema are in the authority of a specific federal office." .
 <https://schema.ld.admin.ch/offices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-
+<https://schema.ld.admin.ch/offices> <http://www.w3.org/2000/01/rdf-schema#comment> "Every class of the Swiss Federal Linked Data Schema are in the authority of a specific federal office." .
+<https://schema.ld.admin.ch/offices> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Offices" .
+<https://schema.ld.admin.ch/tests/first-steps> <http://schema.org/hasPart> <https://schema.ld.admin.ch/TestClassA> .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#comment> "Classes which are used to test the Schema Manager." .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
-
 <https://schema.ld.admin.ch/tests> <http://schema.org/hasPart> <https://schema.ld.admin.ch/tests/first-steps> .
-<https://schema.ld.admin.ch/tests> <http://www.w3.org/2000/01/rdf-schema#label> "Test Sandbox" .
-<https://schema.ld.admin.ch/tests> <http://www.w3.org/2000/01/rdf-schema#comment> "Space availble to test adding new Classes and Properties to get familiar with the schema editor." .
 <https://schema.ld.admin.ch/tests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.ld.admin.ch/tests> <http://www.w3.org/2000/01/rdf-schema#comment> "Space availble to test adding new Classes and Properties to get familiar with the schema editor." .
+<https://schema.ld.admin.ch/tests> <http://www.w3.org/2000/01/rdf-schema#label> "Test Sandbox" .
