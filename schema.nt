@@ -71,11 +71,11 @@
 <https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de nouveaux cas confirmés depuis le jour précédent" .
 <https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandNewConfirmedPats" .
-<https://schema.ld.admin.ch/pandNewCuredPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
-<https://schema.ld.admin.ch/pandNewCuredPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandNewCuredPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandNewCuredPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre estimé de nouveaux cas de guérison depuis le jour précédent" .
-<https://schema.ld.admin.ch/pandNewCuredPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandNewCuredPats" .
+<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
+<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de patient-e-s décédé-e-s des suites d'une contamination par le virus" .
+<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandNewDeceasedPats" .
 <https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
 <https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
