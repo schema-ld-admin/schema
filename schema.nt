@@ -36,6 +36,11 @@
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de patient-e-s avec un diagnostic confirmé de COVID-19" .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandConfirmedPatsCumulated" .
+<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
+<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre estimé et cumulé de patients guéris" .
+<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandCuredPatsCumulated" .
 <https://schema.ld.admin.ch/pandDeceasedCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
 <https://schema.ld.admin.ch/pandDeceasedCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/pandDeceasedCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
