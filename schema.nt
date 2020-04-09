@@ -69,7 +69,7 @@
 <https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
 <https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de tests effectués du virus COVID-19" .
+<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de tests effectués du virus de cette pandémie" .
 <https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandPerformedTestsCumulated" .
 <https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2004/02/skos/core#note> "Le nombre de tests inclut aussi bien ceux qui aboutissent à des résultats positifs qu'à des résultats négatifs"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
