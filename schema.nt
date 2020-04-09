@@ -4,12 +4,6 @@
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
-<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de tests effectués du virus COVID-19" .
-<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "cvdPerformedTestsCumulated" .
-<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/2004/02/skos/core#note> "Le nombre de tests inclut aussi bien ceux qui aboutissent à des résultats positifs qu'à des résultats négatifs"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/cvdReleasedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
 <https://schema.ld.admin.ch/cvdReleasedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/cvdReleasedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -82,6 +76,12 @@
 <https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de nouveaux cas confirmés depuis le jour précédent" .
 <https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandNewConfirmedPats" .
+<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
+<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de tests effectués du virus COVID-19" .
+<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandPerformedTestsCumulated" .
+<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2004/02/skos/core#note> "Le nombre de tests inclut aussi bien ceux qui aboutissent à des résultats positifs qu'à des résultats négatifs"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#label> "Political Municipality" .
