@@ -1,4 +1,4 @@
-_:b1_b183192_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b3_b1_b183192_b2 <http://schema.org/version> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bafu> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bfs> .
@@ -23,7 +23,7 @@ _:b1_b183192_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSche
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#comment> "Space availble to test adding new Classes and Properties to get familiar with the schema editor." .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#label> "Test Sandbox" .
-<https://schema.ld.admin.ch/tests/first-steps> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/tests/first-steps> <http://schema.org/hasPart> <https://schema.ld.admin.ch/PandemicCensusObservation> .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#comment> "Classes which are used to test the Schema Manager." .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
