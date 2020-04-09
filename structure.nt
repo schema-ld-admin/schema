@@ -1,4 +1,4 @@
-_:b5_b3_b1_b183192_b2 <http://schema.org/version> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b7_b5_b3_b1_b183192_b2 <http://schema.org/version> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bafu> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bfs> .
