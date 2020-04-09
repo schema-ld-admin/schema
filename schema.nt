@@ -2,12 +2,11 @@
 <https://schema.ld.admin.ch/Covid19Observation> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe structurant les différentes données des statistiques Covid-19" .
 <https://schema.ld.admin.ch/Covid19Observation> <http://www.w3.org/2000/01/rdf-schema#label> "Covid19Observation" .
 <https://schema.ld.admin.ch/Covid19Observation> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/CDCPMDRecord> .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date à laquelle les différentes mesures ont été collectées. Inclus l'heure si souhaité." .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2000/01/rdf-schema#label> "cvdObservationDate" .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/cvdCollectionDate> .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de patient-e-s avec un diagnostic confirmé de COVID-19" .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "cvdConfirmedPatsCumulated" .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
