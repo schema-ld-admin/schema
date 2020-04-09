@@ -1,13 +1,13 @@
+<https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/canton> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
+<https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
+<https://schema.ld.admin.ch/canton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/Covid19Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/Covid19Observation> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe structurant les différentes données des statistiques Covid-19" .
 <https://schema.ld.admin.ch/Covid19Observation> <http://www.w3.org/2000/01/rdf-schema#label> "Covid19Observation" .
 <https://schema.ld.admin.ch/Covid19Observation> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/CDCPMDRecord> .
-<https://schema.ld.admin.ch/cvdCanton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
-<https://schema.ld.admin.ch/cvdCanton> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/cvdCanton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/cvdCanton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
-<https://schema.ld.admin.ch/cvdCanton> <http://www.w3.org/2000/01/rdf-schema#label> "cvdCanton" .
-<https://schema.ld.admin.ch/cvdCanton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
 <https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
