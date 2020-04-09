@@ -71,6 +71,12 @@
 <https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality Version" .
 <https://schema.ld.admin.ch/municipalityVersion> <http://www.w3.org/2000/01/rdf-schema#label> "municipalityVersion" .
 <https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nDie Historisierungsnummer Gemeinde wird als nicht sprechender, übergeordneter Schlüssel in der Entität geführt. **Sie ermöglicht die Historisierung der Mutationsprozesse auf Gemeindeebene.**"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/pandemicName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/pandemicName> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/pandemicName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/pandemicName> <http://www.w3.org/2000/01/rdf-schema#comment> "Nom officiel de la pandémie dont on recense les cas et l'évolution des patients" .
+<https://schema.ld.admin.ch/pandemicName> <http://www.w3.org/2000/01/rdf-schema#label> "pandemicName" .
+<https://schema.ld.admin.ch/pandemicName> <http://www.w3.org/2004/02/skos/core#note> "Actuellement seule la valeur COVID-19 est considérée"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#label> "Political Municipality" .
