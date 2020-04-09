@@ -19,12 +19,6 @@
 <https://schema.ld.admin.ch/cvdIcuPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/cvdIcuPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s actuellement traités dans les unités de soins intensifs (UCI en anglais) avec un diagnostic confirmé de COVID-19" .
 <https://schema.ld.admin.ch/cvdIcuPats> <http://www.w3.org/2000/01/rdf-schema#label> "cvdICUPats" .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date à laquelle les différentes mesures ont été collectées. Inclus l'heure si souhaité." .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2000/01/rdf-schema#label> "cvdObservationDate" .
-<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/cvdCollectionDate> .
 <https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
 <https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -62,6 +56,12 @@
 <https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality Version" .
 <https://schema.ld.admin.ch/municipalityVersion> <http://www.w3.org/2000/01/rdf-schema#label> "municipalityVersion" .
 <https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nDie Historisierungsnummer Gemeinde wird als nicht sprechender, übergeordneter Schlüssel in der Entität geführt. **Sie ermöglicht die Historisierung der Mutationsprozesse auf Gemeindeebene.**"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/observationDate> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
+<https://schema.ld.admin.ch/observationDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://schema.ld.admin.ch/observationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date à laquelle les différentes mesures ont été collectées. Inclus l'heure si souhaité." .
+<https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2000/01/rdf-schema#label> "observationDate" .
+<https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/cvdCollectionDate> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
