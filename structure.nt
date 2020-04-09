@@ -1,4 +1,4 @@
-_:b1 <http://schema.org/version> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b1 <http://schema.org/version> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bafu> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bfs> .

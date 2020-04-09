@@ -8,6 +8,43 @@
 <https://schema.ld.admin.ch/cvdCanton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
 <https://schema.ld.admin.ch/cvdCanton> <http://www.w3.org/2000/01/rdf-schema#label> "cvdCanton" .
 <https://schema.ld.admin.ch/cvdCanton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de patient-e-s avec un diagnostic confirmé de COVID-19" .
+<https://schema.ld.admin.ch/cvdConfirmedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "cvdConfirmedPatsCumulated" .
+<https://schema.ld.admin.ch/cvdDeceasedCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/cvdDeceasedCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/cvdDeceasedCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/cvdDeceasedCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s décédé-e-s avec un diagnostic confirmé de COVID-19" .
+<https://schema.ld.admin.ch/cvdDeceasedCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "cvdDeceasedCumulated" .
+<https://schema.ld.admin.ch/cvdHospitalizedPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/cvdHospitalizedPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/cvdHospitalizedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/cvdHospitalizedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s actuellement hospitalisé-e-s avec un diagnostic confirmé de COVID-19" .
+<https://schema.ld.admin.ch/cvdHospitalizedPats> <http://www.w3.org/2000/01/rdf-schema#label> "cvdHospitalizedPats" .
+<https://schema.ld.admin.ch/cvdIcuPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/cvdIcuPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/cvdIcuPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/cvdIcuPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s actuellement traités dans les unités de soins intensifs (UCI en anglais) avec un diagnostic confirmé de COVID-19" .
+<https://schema.ld.admin.ch/cvdIcuPats> <http://www.w3.org/2000/01/rdf-schema#label> "cvdICUPats" .
+<https://schema.ld.admin.ch/cvdObservationDate> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/cvdObservationDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date à laquelle les différentes mesures ont été collectées. Inclus l'heure si souhaité." .
+<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2000/01/rdf-schema#label> "cvdObservationDate" .
+<https://schema.ld.admin.ch/cvdObservationDate> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/cvdCollectionDate> .
+<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de tests effectués du virus COVID-19" .
+<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "cvdPerformedTestsCumulated" .
+<https://schema.ld.admin.ch/cvdPerformedTestsCumulated> <http://www.w3.org/2004/02/skos/core#note> "Le nombre de tests inclut aussi bien ceux qui aboutissent à des résultats positifs qu'à des résultats négatifs"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/cvdReleasedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Covid19Observation> .
+<https://schema.ld.admin.ch/cvdReleasedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/cvdReleasedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/cvdReleasedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s sorti-e-s d'un centre hospitalier ayant eu un diagnostic confirmé de COVID-19 " .
+<https://schema.ld.admin.ch/cvdReleasedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "cvdReleasedPatsCumulated" .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
