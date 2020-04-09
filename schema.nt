@@ -4,11 +4,6 @@
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/cvdVentilatedPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
-<https://schema.ld.admin.ch/cvdVentilatedPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/cvdVentilatedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/cvdVentilatedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s sous aide respiratoire avec un diagnostic confirmé de COVID-19" .
-<https://schema.ld.admin.ch/cvdVentilatedPats> <http://www.w3.org/2000/01/rdf-schema#label> "cvdVentilatedPats" .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
@@ -82,6 +77,11 @@
 <https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s sorti-e-s d'un centre hospitalier ayant eu un diagnostic confirmé du virus" .
 <https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandReleasedPatsCumulated" .
+<https://schema.ld.admin.ch/pandVentilatedPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicCensusObservation> .
+<https://schema.ld.admin.ch/pandVentilatedPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s sous aide respiratoire avec un diagnostic confirmé du virus" .
+<https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandVentilatedPats" .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#label> "Political Municipality" .
