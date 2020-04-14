@@ -1,6 +1,4 @@
-_:b5_b2 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:b5_b3_b1_b183383_b1_b183369_b1_b183349_b1_b183339_b11_b9_b7_b5_b3_b1_b183192_b2 <http://schema.org/version> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:b6 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b3_b5_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bafu> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bfs> .
@@ -25,7 +23,7 @@ _:b6 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer>
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#comment> "Space availble to test adding new Classes and Properties to get familiar with the schema editor." .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#label> "Test Sandbox" .
-<https://schema.ld.admin.ch/tests/first-steps> <http://schema.org/hasPart> <https://schema.ld.admin.ch/PandemicCensusObservation> .
+<https://schema.ld.admin.ch/tests/first-steps> <http://schema.org/hasPart> <https://schema.ld.admin.ch/PandemicObservation> .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#comment> "Classes which are used to test the Schema Manager." .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
