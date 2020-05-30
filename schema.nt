@@ -1,3 +1,15 @@
+<https://schema.ld.admin.ch/about> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/about> <http://schema.org/rangeIncludes> <https://schema.org/Organization> .
+<https://schema.ld.admin.ch/about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#comment> "The organisation to which the ISIL belongs." .
+<https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#label> "about" .
+<https://schema.ld.admin.ch/about> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/about> .
+<https://schema.ld.admin.ch/about> <http://www.w3.org/2004/02/skos/core#note> "The [Organisation](https://schema.org/Organization) to which the ISIL belongs to as defined in _schema.org_. It can be further sub-classed into [Library](https://schema.org/Library) or [ArchiveOrganization](https://schema.org/ArchiveOrganization).\n\nThe Class Organisation itself uses [identifier](https://schema.org/identifier) to point to an [ISIL](https://schema.ld.admin.ch/Isil)."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Verwaltungsgeschichte" .
+<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#label> "administrativeHistory" .
 <https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicObservation> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -11,6 +23,21 @@
 <https://schema.ld.admin.ch/id> <http://www.w3.org/2000/01/rdf-schema#comment> "The official identifier (xsd:int) of the subject." .
 <https://schema.ld.admin.ch/id> <http://www.w3.org/2000/01/rdf-schema#label> "id" .
 <https://schema.ld.admin.ch/id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/identifier> .
+<https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Bestandsbeschreibung" .
+<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#label> "inventoryDescription" .
+<https://schema.ld.admin.ch/Isil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2000/01/rdf-schema#comment> "International Standard Identifier for Libraries" .
+<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2000/01/rdf-schema#label> "ISIL" .
+<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/DefinedTerm> .
+<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2004/02/skos/core#note> "The International Standard Identifier for Libraries (ISIL) is defined in [ISO 15511](https://www.iso.org/standard/77849.html) and its [internationally unique](http://biblstandard.dk/isil/).\n\nThis class defines a representation of the [Swiss ISIL](https://www.nb.admin.ch/snl/en/home/information-professionals/isil.html) under control of the Swiss National Library.\n\nThis Class is extending the [DefinedTerm](https://schema.org/DefinedTerm) from the [schema.org](http://schema.org) Vocabulary for the additional information available on the [Swiss ISIL](https://www.nb.admin.ch/snl/en/home/information-professionals/isil.html)."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "Bibliotheksbestände" .
+<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "libraryMaterials" .
 <https://schema.ld.admin.ch/longName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "District name or official municipality name." .
@@ -31,6 +58,11 @@
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date à laquelle les différentes mesures ont été collectées. Inclus l'heure si souhaité." .
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2000/01/rdf-schema#label> "observationDate" .
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/cvdCollectionDate> .
+<https://schema.ld.admin.ch/otherMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/otherMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "andere Bestände" .
+<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "otherMaterials" .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicObservation> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -101,3 +133,14 @@
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "Short district/municipality name as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#label> "Short Name" .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nGemeinde\n--------\n\nIm Feld Gemeindename kurz werden diejenigen Gemeindenamen abgekürzt geführt, die aus mehr als 24 Zeichen bestehen. Der abgekürzte Name ist nicht amtlich, er kann aber z.B. für die Anzeige am Bildschirm innerhalb von Applikationen praktisch sein, um die nötige Feldlänge einschränken zu können.\n\nBezirk\n------\n\nDer Bezirksname ist der vom Kanton verwendete Name der Bezirke, ohne die vorgestellte Bezeichnung Bezirk, Amt, Amtsbezirk oder Wahlkreis. Wird der Bezirksname in zwei Sprachen verwendet, sind beide Namen enthalten. Bemerkung: Bezirksfreie Gebiete sind pro Kanton entsprechend bezeichnet"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/termCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/termCode> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/termCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The ISIL Code itself." .
+<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#label> "termCode" .
+<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/termCode> .
+<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2004/02/skos/core#note> "The ISIL Code in the format \"_CH-000000-0_\" as a _xsd:string_."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/valid> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/valid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/valid> <http://www.w3.org/2000/01/rdf-schema#comment> "Status der ISIL" .
+<https://schema.ld.admin.ch/valid> <http://www.w3.org/2000/01/rdf-schema#label> "valid" .
