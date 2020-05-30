@@ -1,17 +1,17 @@
-_:b2651_b3_b5_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "1" .
+_:b19_b2651_b3_b5_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "2" .
+<https://schema.ld.admin.ch/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.ld.admin.ch/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/common> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bafu> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bfs> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bk> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/nb> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/ech> .
+<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/nb> .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/2000/01/rdf-schema#comment> "Every class of the Swiss Federal Linked Data Schema are in the authority of a specific federal office." .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Offices" .
-<https://schema.ld.admin.ch/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
 <https://schema.ld.admin.ch/office/bafu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/bafu> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Office for the Environment" .
 <https://schema.ld.admin.ch/office/bar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
