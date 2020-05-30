@@ -128,6 +128,12 @@
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#label> "Political Municipality" .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\n*   Eine politische Gemeinde gehört zu einem oder zu keinem Bezirk.\n    \n*   Eine politische Gemeinde gehört immer zu einem Kanton."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/replacer> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/replacer> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Isil> .
+<https://schema.ld.admin.ch/replacer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#comment> "The new ISIL Code which replaced this ISIL Code and potentially took over its materials." .
+<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#label> "replacer" .
+<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/replacer> .
 <https://schema.ld.admin.ch/shortName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "Short district/municipality name as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
