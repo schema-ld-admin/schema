@@ -1,9 +1,12 @@
 <https://schema.ld.admin.ch/about> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/about> <http://schema.org/rangeIncludes> <https://schema.org/Organization> .
 <https://schema.ld.admin.ch/about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#comment> "L'organisation à qui le numéro ISIL est attribué." .
 <https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#comment> "The organisation to which the ISIL belongs." .
+<https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#label> "about " .
 <https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#label> "about" .
 <https://schema.ld.admin.ch/about> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/about> .
+<https://schema.ld.admin.ch/about> <http://www.w3.org/2004/02/skos/core#note> "L'organisation selon schema.org à laquelle un numéro ISIL est attribué.\n\nLa classe 'organisation' peut être subdivisée en Library ou ArchiveOrganisation.\n\nLa classe 'Organisation' utilise 'identifier' pour se référer au numéro ISIL."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/about> <http://www.w3.org/2004/02/skos/core#note> "The [Organisation](https://schema.org/Organization) to which the ISIL belongs to as defined in _schema.org_. It can be further sub-classed into [Library](https://schema.org/Library) or [ArchiveOrganization](https://schema.org/ArchiveOrganization).\n\nThe Class Organisation itself uses [identifier](https://schema.org/identifier) to point to an [ISIL](https://schema.ld.admin.ch/Isil)."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
