@@ -64,8 +64,9 @@
 <https://schema.ld.admin.ch/otherMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/otherMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "andere Bestände" .
+<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "Autres fonds" .
 <https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "otherMaterials" .
+<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2004/02/skos/core#note> "'Autres fonds' comprends une description textuelle des fonds de médias traditionnellement collectés par les bibliothèques, mesurés en unités."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicObservation> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
