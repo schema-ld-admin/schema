@@ -30,8 +30,9 @@
 <https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Bestandsbeschreibung" .
+<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description des fonds" .
 <https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#label> "inventoryDescription" .
+<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2004/02/skos/core#note> "La description des fonds est une description textuelle de tous les inventaires collectés par l'organisation."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/2000/01/rdf-schema#comment> "International Standard Identifier for Libraries" .
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/2000/01/rdf-schema#label> "ISIL" .
