@@ -150,10 +150,10 @@
 <https://schema.ld.admin.ch/termCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/termCode> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The ISIL Code itself." .
+<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#comment> " Le code ISIL (International Standard Identifier for Libraries and Related Organizations )." .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#label> "termCode" .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/termCode> .
-<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2004/02/skos/core#note> "International Standard Identifier for Libraries and Related Organizations (ISIL). A unique identifier for libraries and related institutions or subordinate organisational units, issued by the Swiss National Library in its capacity as ISIL agency. The string is matched by the following regular expression: ‘\\[(CH|LI)\\]{2}-\\[0-9\\]{6}-\\[0-9X\\]{1}’."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2004/02/skos/core#note> "International Standard Identifier for Libraries and Related Organizations (ISIL).\n\nUn identifiant unique pour les bibliothèques et assimilés ou les unités organisationnelles subordonnées, émis par la Bibliothèque nationale suisse par sa fonction d'agence ISIL.\n\nLa chaîne est assortie de l'expression régulière suivantet: '\\[(CH|LI)\\]{2}-\\[0-9\\]{6}-\\[0-9X\\]{1}'"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/valid> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/valid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/valid> <http://www.w3.org/2000/01/rdf-schema#comment> "État de validité du code ISIL" .
