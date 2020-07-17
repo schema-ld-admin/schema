@@ -11,8 +11,9 @@
 <https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Verwaltungsgeschichte" .
+<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Histoire de l'institution" .
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#label> "administrativeHistory" .
+<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2004/02/skos/core#note> "'Histoire de l'institution' décrit le développement de l'organisation sous forme textuelle."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicObservation> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
