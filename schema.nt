@@ -137,9 +137,10 @@
 <https://schema.ld.admin.ch/replacer> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/replacer> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#comment> "The new ISIL Code which replaced this ISIL Code and potentially took over its materials." .
+<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#comment> "Le code ISIL qui remplace le code ISIL de l'organisation actuelle." .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#label> "replacer" .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/replacer> .
+<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2004/02/skos/core#note> "Le code ISIL qui remplace le code ISIL de l'organisation actuelle.\n\nL'organisation actuelle est donc inactive et dissoute. Tout ou partie de ses fonds ont été transférés au successeur."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/shortName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "Short district/municipality name as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
