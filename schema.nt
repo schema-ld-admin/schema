@@ -167,6 +167,7 @@
 <https://schema.ld.admin.ch/validThrough> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/validThrough> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
 <https://schema.ld.admin.ch/validThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "End of validity of this ISIL Code." .
+<https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "Fin de la validité du code ISIL." .
 <https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2000/01/rdf-schema#label> "validThrough" .
 <https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/validThrough> .
+<https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2004/02/skos/core#note> "Fin de la validité du code ISIL et date de dissolution de'lorganisation.\n\nLa date est définie selon la norme ISO 8601 dans la granularité 'année'."^^<http://media-type.described.at/text/markdown> .
