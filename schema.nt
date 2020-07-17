@@ -41,8 +41,9 @@
 <https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "Bibliotheksbestände" .
+<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "Fonds bibliothécaire" .
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "libraryMaterials" .
+<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2004/02/skos/core#note> "'Fonds bibliothécaire' comprends une description textuelle des fonds de médias traditionnellement collectés par les bibliothèques, mesurés en unités.\n\n'Fonds bibliothécaire' complète la description des fonds."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/longName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "District name or official municipality name." .
