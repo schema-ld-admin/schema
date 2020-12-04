@@ -1,5 +1,5 @@
-_:b101_b93_b89_b9_b21_b17_b73_b7_b83_b79_b73_b67_b63_b59_b53_b47_b43_b35_b19_b167_b29_b23_b19_b2651_b3_b5_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "24" .
+_:b3_b101_b93_b89_b9_b21_b17_b73_b7_b83_b79_b73_b67_b63_b59_b53_b47_b43_b35_b19_b167_b29_b23_b19_b2651_b3_b5_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "25" .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
