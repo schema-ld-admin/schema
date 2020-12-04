@@ -20,6 +20,10 @@
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/description> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
+<https://schema.ld.admin.ch/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of subject." .
+<https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
@@ -44,6 +48,13 @@
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "Fonds bibliothécaire" .
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "libraryMaterials" .
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2004/02/skos/core#note> "'Fonds bibliothécaire' comprends une description textuelle des fonds de médias traditionnellement collectés par les bibliothèques, mesurés en unités.\n\n'Fonds bibliothécaire' complète la description des fonds."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "This class describes all mandatory and good to have properties for a dataset present in http://lindas.admin.ch." .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2000/01/rdf-schema#label> "LINDAS Dataset" .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdfs.org/ns/void#void:Dataset> .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Dataset> .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/dcat#Dataset> .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2004/02/skos/core#note> "The information instantiated with this class will be used for the https://opendata.swiss/ and https://lindas.admin.ch/datasets."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/longName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "District name or official municipality name." .
@@ -58,6 +69,11 @@
 <https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality Version" .
 <https://schema.ld.admin.ch/municipalityVersion> <http://www.w3.org/2000/01/rdf-schema#label> "municipalityVersion" .
 <https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nDie Historisierungsnummer Gemeinde wird als nicht sprechender, übergeordneter Schlüssel in der Entität geführt. **Sie ermöglicht die Historisierung der Mutationsprozesse auf Gemeindeebene.**"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/name> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
+<https://schema.ld.admin.ch/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of subject." .
+<https://schema.ld.admin.ch/name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+<https://schema.ld.admin.ch/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/name> .
 <https://schema.ld.admin.ch/observationDate> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicObservation> .
 <https://schema.ld.admin.ch/observationDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
