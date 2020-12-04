@@ -23,10 +23,10 @@
 <https://schema.ld.admin.ch/datasetDateCreated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetDateCreated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
 <https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2000/01/rdf-schema#comment> "The date when the dataset was created." .
+<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2000/01/rdf-schema#comment> "The date when the source of dataset was created or updated." .
 <https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Date Created" .
 <https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/dateCreated> .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2004/02/skos/core#note> "In case of external dataset source the creation date of the input file.\n\nIn case the dataset is directly managed as RDF it can be left away."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2004/02/skos/core#note> "In case of external dataset source the creation date of the input file.\n\nIn case the dataset is directly managed as RDF this property can be omitted."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/datasetDateModified> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetDateModified> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
 <https://schema.ld.admin.ch/datasetDateModified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
