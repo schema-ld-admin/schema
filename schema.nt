@@ -39,6 +39,12 @@
 <https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2000/01/rdf-schema#comment> "First time the dataset is published as RDF." .
 <https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Date Published" .
 <https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/datePublished> .
+<https://schema.ld.admin.ch/datasetPublisher> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
+<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2000/01/rdf-schema#comment> "Which platform or database is used for the publishing of the dataset." .
+<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Publisher" .
+<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/publisher> .
+<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2004/02/skos/core#note> "This property describes which platform is used to publish.\n\nFor datasets on\n\n*   Lindas use <http://lindas.admin.ch>\n    \n*   Swisstopo use <http://ld.geo.admin.ch>"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/datasetUrl> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "URL where more information about the Dataset is available." .
@@ -188,11 +194,6 @@
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "Short district/municipality name as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#label> "Short Name" .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nGemeinde\n--------\n\nIm Feld Gemeindename kurz werden diejenigen Gemeindenamen abgekürzt geführt, die aus mehr als 24 Zeichen bestehen. Der abgekürzte Name ist nicht amtlich, er kann aber z.B. für die Anzeige am Bildschirm innerhalb von Applikationen praktisch sein, um die nötige Feldlänge einschränken zu können.\n\nBezirk\n------\n\nDer Bezirksname ist der vom Kanton verwendete Name der Bezirke, ohne die vorgestellte Bezeichnung Bezirk, Amt, Amtsbezirk oder Wahlkreis. Wird der Bezirksname in zwei Sprachen verwendet, sind beide Namen enthalten. Bemerkung: Bezirksfreie Gebiete sind pro Kanton entsprechend bezeichnet"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The SPARQL endpoint where the dataset can be queried." .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL Endpoint" .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://rdfs.org/ns/void#sparqlEndpoint > .
 <https://schema.ld.admin.ch/termCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/termCode> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
