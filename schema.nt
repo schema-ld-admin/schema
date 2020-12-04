@@ -20,6 +20,12 @@
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/datasetDateCreated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
+<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2000/01/rdf-schema#comment> "The date when the dataset was created." .
+<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Date Created" .
+<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/dateCreated> .
+<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2004/02/skos/core#note> "In case of external dataset source the creation date of the input file.\n\nIn case the dataset is directly managed as RDF it can be left away."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/datasetDatePublished> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2000/01/rdf-schema#comment> "First time the dataset is published as RDF." .
