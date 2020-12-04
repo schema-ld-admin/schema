@@ -55,12 +55,12 @@
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "libraryMaterials" .
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2004/02/skos/core#note> "'Fonds bibliothécaire' comprends une description textuelle des fonds de médias traditionnellement collectés par les bibliothèques, mesurés en unités.\n\n'Fonds bibliothécaire' complète la description des fonds."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "This class describes all mandatory and good to have properties for a dataset present in http://lindas.admin.ch." .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "This class describes all mandatory and recommend properties for a dataset present on http://lindas.admin.ch." .
 <https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2000/01/rdf-schema#label> "LINDAS Dataset" .
 <https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdfs.org/ns/void#void:Dataset> .
 <https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Dataset> .
 <https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/dcat#Dataset> .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2004/02/skos/core#note> "The information instantiated with this class will be used for the https://opendata.swiss/ and https://lindas.admin.ch/datasets."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2004/02/skos/core#note> "It is mandatory to use the equivalentClass and equivalentProperty of the described properties and not use the properties in the schema.ld.admin.ch namespace.\n\nSee for example [http://lod.opentransportdata.swiss/.well-known/dataset/didok](http://lod.opentransportdata.swiss/.well-known/dataset/didok)\n\nThe information instantiated with this class will be used for the [https://opendata.swiss/](https://opendata.swiss/) and [https://lindas.admin.ch/datasets](https://lindas.admin.ch/datasets)."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/longName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "District name or official municipality name." .
