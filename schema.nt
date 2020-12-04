@@ -57,6 +57,12 @@
 <https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "URL where more information about the Dataset is available." .
 <https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Url" .
 <https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/url> .
+<https://schema.ld.admin.ch/datasetWorkExample> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
+<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2000/01/rdf-schema#comment> "An application or work which is based on the dataset." .
+<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Work Example" .
+<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/workExample> .
+<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2004/02/skos/core#note> "This is mainly used to point to URLs hosting applications using this dataset."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/description> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of subject." .
