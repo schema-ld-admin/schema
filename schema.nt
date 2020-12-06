@@ -85,6 +85,11 @@
 <https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/2000/01/rdf-schema#label> "exampleResource" .
 <https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://rdfs.org/ns/void#exampleResource> .
 <https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/2004/02/skos/core#note> "Ideally a link to one example of each main class of the dataset."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/exampleSparqlQuery> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
+<https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "An example query in SPARQL adapted to the dataset." .
+<https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2000/01/rdf-schema#label> "exampleSPARQLQuery" .
+<https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2004/02/skos/core#note> "The provided SPARQL queries can be used as examples on the interface specified with <[https://schema.ld.admin.ch/queryInterface](https://schema.ld.admin.ch/queryInterface)\\>."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
