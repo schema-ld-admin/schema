@@ -61,7 +61,7 @@
 <https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2000/01/rdf-schema#comment> "Which platform or database is used for the publishing of the dataset." .
 <https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Publisher" .
 <https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/publisher> .
-<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2004/02/skos/core#note> "This property describes which platform is used to publish.\n\nFor datasets on\n\n*   Lindas use <http://lindas.admin.ch>\n    \n*   Swisstopo use <http://ld.geo.admin.ch>"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2004/02/skos/core#note> "This property describes which platform or database is used to publish the dataset.\n\nFor datasets on\n\n*   Lindas use <[https://ld.admin.ch/org/lindas](https://ld.admin.ch/org/lindas)\\>\n    \n*   Swisstopo use <[https://ld.admin.ch/org/geo](https://ld.admin.ch/org/geo)\\>"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/datasetUrl> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "URL where more information about the Dataset is available." .
