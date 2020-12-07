@@ -30,8 +30,9 @@
 <https://schema.ld.admin.ch/datasetContributor> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetContributor> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/2000/01/rdf-schema#comment> "The organization facilitating the transformation and publishing of the dataset." .
+<https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/2000/01/rdf-schema#comment> "The organization facilitating the transformation and publishing of the dataset. if different from the creator." .
 <https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/2000/01/rdf-schema#label> "datasetContributor" .
+<https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/2004/02/skos/core#note> "The organization facilitating the transformation and publishing of the dataset.\n\nOnly necessary if different from the <[https://schema.ld.admin.ch/datasetCreator](https://schema.ld.admin.ch/datasetCreator)\\>."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/datasetCreator> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetCreator> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <https://schema.ld.admin.ch/datasetCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
