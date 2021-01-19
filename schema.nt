@@ -140,7 +140,8 @@
 <https://schema.ld.admin.ch/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of subject." .
 <https://schema.ld.admin.ch/name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
-<https://schema.ld.admin.ch/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/name> .
+<https://schema.ld.admin.ch/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/title> .
+<https://schema.ld.admin.ch/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/name> .
 <https://schema.ld.admin.ch/observationDate> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PandemicObservation> .
 <https://schema.ld.admin.ch/observationDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
