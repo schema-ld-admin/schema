@@ -10,6 +10,7 @@ _:b31_b39_b21_b5_b225_b27799_b27793_b27787_b95_b59_b21_b373_b369_b359_b189_b173_
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bk> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/ech> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/nb> .
+<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/foj> .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/2000/01/rdf-schema#comment> "Every class of the Swiss Federal Linked Data Schema are in the authority of a specific federal office." .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Offices" .
@@ -28,6 +29,8 @@ _:b31_b39_b21_b5_b225_b27799_b27793_b27787_b95_b59_b21_b373_b369_b359_b189_b173_
 <https://schema.ld.admin.ch/office/nb> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/office/nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/nb> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss National Library" .
+<https://schema.ld.admin.ch/office/foj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.ld.admin.ch/office/foj> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Office of Justice" .
 <https://schema.ld.admin.ch/tests/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/tests/first-steps> .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#comment> "Space availble to test adding new Classes and Properties to get familiar with the schema editor." .
