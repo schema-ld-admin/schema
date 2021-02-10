@@ -91,6 +91,17 @@
 <https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "An example query in SPARQL adapted to the dataset." .
 <https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2000/01/rdf-schema#label> "exampleSPARQLQuery" .
 <https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2004/02/skos/core#note> "The provided SPARQL queries can be used as examples on the interface specified with <[https://schema.ld.admin.ch/queryInterface](https://schema.ld.admin.ch/queryInterface)\\>."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/httpSchemaOrgHadDefinedTerm> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/SharedDimension> .
+<https://schema.ld.admin.ch/httpSchemaOrgHadDefinedTerm> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> .
+<https://schema.ld.admin.ch/httpSchemaOrgHadDefinedTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/httpSchemaOrgHadDefinedTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "All the entries belonging to a shared Dimension." .
+<https://schema.ld.admin.ch/httpSchemaOrgHadDefinedTerm> <http://www.w3.org/2000/01/rdf-schema#label> "http://schema.org/hadDefinedTerm" .
+<https://schema.ld.admin.ch/httpSchemaOrgHadDefinedTerm> <http://www.w3.org/2004/02/skos/core#note> "Pointing to entries of the Class `schema:DefinedTerm` where it is expected a `schema:name` to be present. To deprecated a specific term `schema:validThrough` is added with the date of the deprecation."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/httpSchemaOrgName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/SharedDimension> .
+<https://schema.ld.admin.ch/httpSchemaOrgName> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/httpSchemaOrgName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/httpSchemaOrgName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the shared dimension." .
+<https://schema.ld.admin.ch/httpSchemaOrgName> <http://www.w3.org/2000/01/rdf-schema#label> "http://schema.org/name" .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
@@ -228,6 +239,12 @@
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#label> "replacer" .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/replacer> .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/2004/02/skos/core#note> "Le code ISIL qui remplace le code ISIL de l'organisation actuelle.\n\nL'organisation actuelle est donc inactive et dissoute. Tout ou partie de ses fonds ont été transférés au successeur."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "A DefinedTermSet which will be presented as a target for values in the Cube Creator." .
+<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2000/01/rdf-schema#label> "SharedDimension" .
+<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/DefinedTermSet> .
+<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2002/07/owl#equivalentClass> <https://cube.link/meta/SharedDimension> .
+<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2004/02/skos/core#note> "The instance needs to be decorated with `schema:DefinedTerm` and `https://cube.link/meta/SharedDimension` to be recognized by the Cube-Creator ([https://cube-creator.lindas.admin.ch/](https://cube-creator.lindas.admin.ch/)).\n\nSharedDimension have the important property of being monotonic. It is not allowed to remove a once published shared Dimension or entries thereof. Only a \"deprecation\" by using `schema:validThrough` is allowed either on the whole Dimension or the `schema:DefinedTerm` entry respectively."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/shortName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "Short district/municipality name as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
