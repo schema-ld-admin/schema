@@ -247,6 +247,12 @@
 <https://schema.ld.admin.ch/sharedDimensionName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the shared dimension." .
 <https://schema.ld.admin.ch/sharedDimensionName> <http://www.w3.org/2000/01/rdf-schema#label> "sharedDimensionName" .
 <https://schema.ld.admin.ch/sharedDimensionName> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/name> .
+<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/SharedDimension> .
+<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
+<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "To define the deprecation of a Dimension." .
+<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://www.w3.org/2000/01/rdf-schema#label> "sharedDimensionValidThrough" .
+<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/validThrough> .
 <https://schema.ld.admin.ch/shortName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "Short district/municipality name as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
