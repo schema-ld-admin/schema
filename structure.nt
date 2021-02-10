@@ -1,5 +1,5 @@
-_:b31_b39_b21_b5_b225_b27799_b27793_b27787_b95_b59_b21_b373_b369_b359_b189_b173_b7_b3_b101_b93_b89_b9_b21_b17_b73_b7_b83_b79_b73_b67_b63_b59_b53_b47_b43_b35_b19_b167_b29_b23_b19_b2651_b3_b5_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "42" .
+_:b23_b31_b39_b21_b5_b225_b27799_b27793_b27787_b95_b59_b21_b373_b369_b359_b189_b173_b7_b3_b101_b93_b89_b9_b21_b17_b73_b7_b83_b79_b73_b67_b63_b59_b53_b47_b43_b35_b19_b167_b29_b23_b19_b2651_b3_b5_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "43" .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
@@ -9,8 +9,8 @@ _:b31_b39_b21_b5_b225_b27799_b27793_b27787_b95_b59_b21_b373_b369_b359_b189_b173_
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bfs> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bk> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/ech> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/nb> .
 <https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/foj> .
+<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/nb> .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/2000/01/rdf-schema#comment> "Every class of the Swiss Federal Linked Data Schema are in the authority of a specific federal office." .
 <https://schema.ld.admin.ch/office/> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Offices" .
@@ -26,16 +26,16 @@ _:b31_b39_b21_b5_b225_b27799_b27793_b27787_b95_b59_b21_b373_b369_b359_b189_b173_
 <https://schema.ld.admin.ch/office/bk> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Chancellery" .
 <https://schema.ld.admin.ch/office/ech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/ech> <http://www.w3.org/2000/01/rdf-schema#label> "eCH Standards" .
+<https://schema.ld.admin.ch/office/foj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.ld.admin.ch/office/foj> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Office of Justice" .
 <https://schema.ld.admin.ch/office/nb> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/office/nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/nb> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss National Library" .
-<https://schema.ld.admin.ch/office/foj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/foj> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Office of Justice" .
 <https://schema.ld.admin.ch/tests/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/tests/first-steps> .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#comment> "Space availble to test adding new Classes and Properties to get familiar with the schema editor." .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#label> "Test Sandbox" .
-<https://schema.ld.admin.ch/tests/first-steps> <http://schema.org/hasPart> <https://schema.ld.admin.ch/PandemicObservation> .
+<https://schema.ld.admin.ch/tests/first-steps> <http://schema.org/hasPart> <https://schema.ld.admin.ch/TestPandemicObservation> .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#comment> "Classes which are used to test the Schema Manager." .
 <https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
