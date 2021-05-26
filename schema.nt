@@ -76,6 +76,7 @@
 <https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/workExample> .
 <https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2004/02/skos/core#note> "This is mainly used to point to URLs hosting applications using this dataset."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/description> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
+<https://schema.ld.admin.ch/description> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
 <https://schema.ld.admin.ch/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of subject." .
 <https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
