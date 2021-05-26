@@ -295,3 +295,7 @@
 <https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2000/01/rdf-schema#label> "validThrough" .
 <https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/validThrough> .
 <https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2004/02/skos/core#note> "Fin de la validité du code ISIL et date de dissolution de'lorganisation.\n\nLa date est définie selon la norme ISO 8601 dans la granularité 'année'."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/2000/01/rdf-schema#comment> "A business entity active in Switzerland corresponding to one entry of the Zefix Database" .
+<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "ZefixOrganisation" .
+<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/Organisation> .
