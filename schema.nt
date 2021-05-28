@@ -8,6 +8,21 @@
 <https://schema.ld.admin.ch/about> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/about> .
 <https://schema.ld.admin.ch/about> <http://www.w3.org/2004/02/skos/core#note> "L'organisation selon schema.org à laquelle un numéro ISIL est attribué.\n\nLa classe 'organisation' peut être subdivisée en Library ou ArchiveOrganisation.\n\nLa classe 'Organisation' utilise 'identifier' pour se référer au numéro ISIL."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/about> <http://www.w3.org/2004/02/skos/core#note> "The [Organisation](https://schema.org/Organization) to which the ISIL belongs to as defined in _schema.org_. It can be further sub-classed into [Library](https://schema.org/Library) or [ArchiveOrganization](https://schema.org/ArchiveOrganization).\n\nThe Class Organisation itself uses [identifier](https://schema.org/identifier) to point to an [ISIL](https://schema.ld.admin.ch/Isil)."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/additionalType> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
+<https://schema.ld.admin.ch/additionalType> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/DefinedTerm> .
+<https://schema.ld.admin.ch/additionalType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/additionalType> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a company category to the entity from the list https://ld.admin.ch/ech/97/legalforms" .
+<https://schema.ld.admin.ch/additionalType> <http://www.w3.org/2000/01/rdf-schema#label> "additionalType" .
+<https://schema.ld.admin.ch/address> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
+<https://schema.ld.admin.ch/address> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Address> .
+<https://schema.ld.admin.ch/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/Address> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic address class that cover the schema.org address model and the LOCN address model" .
+<https://schema.ld.admin.ch/address> <http://www.w3.org/2000/01/rdf-schema#comment> "the address of the subject based on one or both standards from schema.org and Location Core Vocabulary." .
+<https://schema.ld.admin.ch/address> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
+<https://schema.ld.admin.ch/Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address" .
+<https://schema.ld.admin.ch/address> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/address> .
+<https://schema.ld.admin.ch/address> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://www.w3.org/ns/locn#address> .
 <https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -75,6 +90,10 @@
 <https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Work Example" .
 <https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/workExample> .
 <https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2004/02/skos/core#note> "This is mainly used to point to URLs hosting applications using this dataset."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/DefinedTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/DefinedTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "An element of a list of terms contained in a DefinedTermSet" .
+<https://schema.ld.admin.ch/DefinedTerm> <http://www.w3.org/2000/01/rdf-schema#label> "DefinedTerm" .
+<https://schema.ld.admin.ch/DefinedTerm> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/DefinedTerm> .
 <https://schema.ld.admin.ch/description> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/description> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
 <https://schema.ld.admin.ch/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -99,6 +118,12 @@
 <https://schema.ld.admin.ch/id> <http://www.w3.org/2000/01/rdf-schema#comment> "The official identifier (xsd:int) of the subject." .
 <https://schema.ld.admin.ch/id> <http://www.w3.org/2000/01/rdf-schema#label> "id" .
 <https://schema.ld.admin.ch/id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/identifier> .
+<https://schema.ld.admin.ch/identifer> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
+<https://schema.ld.admin.ch/identifer> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/PropertyValue> .
+<https://schema.ld.admin.ch/identifer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/identifer> <http://www.w3.org/2000/01/rdf-schema#comment> "relates an entity with an identifier used in an another database system. To allow multiple identifiers, a PropertyValue structure is used." .
+<https://schema.ld.admin.ch/identifer> <http://www.w3.org/2000/01/rdf-schema#label> "identifer" .
+<https://schema.ld.admin.ch/identifer> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/identifier> .
 <https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -111,6 +136,12 @@
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/DefinedTerm> .
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/2004/02/skos/core#example> "<https://culture.ld.admin.ch/isil/CH-000001-5> a <http://schema.org/DefinedTerm> , <https://schema.ld.admin.ch/Isil> ;\n   <http://schema.org/validFrom> \"1895\" ;\n   <http://schema.org/name> \"Schweizerische Nationalbibliothek\" ;\n   <http://schema.org/url> \"https://www.helveticarchives.ch/detail.aspx?ID=167567\"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;\n   <http://schema.org/dateModified> \"2021-01-25\" ;\n   <http://schema.org/alternateName> \"BEL\" ;\n   <http://schema.org/termCode> \"CH-000001-5\" ;\n   <http://schema.org/inDefinedTermSet> <https://culture.ld.admin.ch/isil> ;\n   <http://schema.org/about> <https://culture.ld.admin.ch/isil/CH-000001-5/organization> ;\n   <https://schema.ld.admin.ch/administrativeHistory> \"Die Schweizerische Nationalbibliothek (NB) wurde 1895 als 'Schweizerische Landesbibliothek' gegründet. Sie hat den bundesgesetzlichen Auftrag, alle Publikationen mit einem Bezug zur Schweiz zu sammeln, zu erschliessen, zu erhalten und zugänglich zu machen. Diese Helvetica-Sammlung wird ergänzt durch diverse Sondersammlungen: die Graphische Sammlung, das Schweizerische Literaturarchiv und das Centre Dürrenmatt Neuchâtel. Die Graphische Sammlung (GS) umfasst ikonografische Dokumente zur Geografie, zum Brauchtum und zu kulturellen und politischen Themen der Schweiz, insbesondere Druckgraphik des 17. bis 20. Jahrhunderts sowie Portrait- und Landschafts-Fotografien. Die seit 1886 gesammelten Dokumente zu Archäologie, Denkmalpflege, Orts- und Landschaftsbildern, Architektur- und Kunstgeschichte sowie Volkskultur gehören als Bestand des Eidgenössischen Archivs für Denkmalpflege (EAD) seit 2007 ebenfalls zur Graphischen Sammlung der NB. Das Schweizerische Literaturarchiv (SLA) wurde 1991 auf Initiative Friedrich Dürrenmatts gegründet. Es betreut die literarischen Archive und Nachlässe zahlreicher Schweizer Autorinnen und Autoren, so unter anderem von Peter Bichsel, Alice Ceresa, Blaise Cendrars, Friedrich Dürrenmatt, Andri Peer und Patricia Highsmith. Als Aussenstelle der NB wurde im Jahr 2000 das Centre Dürrenmatt Neuchâtel (CDN) eröffnet, um Dürrenmatts bildnerisches Werk zugänglich zu machen und die interdisziplinäre Forschung zu befördern. Dieser ISIL-Code ist in der GND (Gemeinsame Normdatei) die Kennung für die NB-Sacherschliessung.\" ;\n   <https://schema.ld.admin.ch/inventoryDescription> \"Amtsdruckschriften,Vereinsschriften,Helvetica: schweizerische Buchproduktion,Schweizer Autoren in Original und Übersetzungen,Werke über die Schweiz, Schweizer Presse, Buch- und Bibliothekswesen, Bibeln, Exlibris, Genealogie, Ansichtskarten, Plakate, Wappen\" ;\n   <https://schema.ld.admin.ch/libraryMaterials> \"3,68 Millionen Einheiten, 9742 Zeitschriften, 341 Zeitungen, 1'000'000 Vereinspublikationen, 141'000 Amtsdruckschriften\" ;\n   <https://schema.ld.admin.ch/otherMaterials> \"436 Zeichnungen und Bilder (CDN), Hesse-Zimmer\" ;\n   <https://schema.ld.admin.ch/valid> \"aktiv\" ." .
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/2004/02/skos/core#note> "Le code 'International Standard Identifier for Libraries' (ISIL) est défini par la norme [ISO 15511](https://www.iso.org/standard/77849.html) et est [unique au niveau international](http://biblstandard.dk/isil/).\n\nCette classe définit la représentation de l'[ISIL suisse](https://www.nb.admin.ch/snl/fr/home/informations-professionnels/isil.html) sous contrôle de la Bibliothèque nationale suisse BN.\n\nCette classe étend [DefinedTerm](https://schema.org/DefinedTerm) de [schema.org](http://schema.org) par les informations supplémentaires disponibles sur l'[ISIL suisse](https://www.nb.admin.ch/snl/fr/home/informations-professionnels/isil.html).\n\nPour plus d'information sur le jeu de données: [https://culture.ld.admin.ch/.well-known/dataset/isil](https://culture.ld.admin.ch/.well-known/dataset/isil)"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/legalName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
+<https://schema.ld.admin.ch/legalName> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.ld.admin.ch/legalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/legalName> <http://www.w3.org/2000/01/rdf-schema#comment> "Official name of the business" .
+<https://schema.ld.admin.ch/legalName> <http://www.w3.org/2000/01/rdf-schema#label> "legalName" .
+<https://schema.ld.admin.ch/legalName> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/legalName> .
 <https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -129,6 +160,14 @@
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "District name or official municipality name." .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#label> "Long Name" .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nGemeinde\n--------\n\nAmtlicher Gemeindename Nach Artikel 19, Abs. 1 der Verordnung über die geografischen NamenVerordnung ist für die Schreibweise der Gemeindenamen (politische Gemeinden) im amtlichen Verkehr der Bundesverwaltung sowie in allen Veröffentlichungen des Bundes das amtliche Gemeindeverzeichnis der Schweiz verbindlich. Die Namen von politischen Gemeinden sind innerhalb der einzelnen Gemeindestände, ohne gemeindefreie Gebiete und ohne kantonale Seeanteile, eindeutig. Hinweis: Bei Einträgen, die sich nicht auf politische Gemeinde beziehen, ist der Name nicht «amtlich».\n\nBezirk\n------\n\nDer Bezirksname ist der vom Kanton verwendete Name des Bezirks. Wird der Bezirksname in zwei Sprachen verwendet, sind beide Namen enthalten. Dem Namen vorgestellt ist die jeweilige Bezeichnung im Kanton (Bezirk, Amt, Amtsbezirk oder Wahlkreis). Bemerkung: Bezirksfreie Gebiete sind pro Kanton entsprechend bezeichnet. Dasselbe gilt auch für Kantone ohne Bezirksunterteilung."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/municipality> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
+<https://schema.ld.admin.ch/municipality> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Municipality> .
+<https://schema.ld.admin.ch/municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/Municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/Municipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality in Switzerland as currently defined by SFO" .
+<https://schema.ld.admin.ch/municipality> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a municipality to the subject" .
+<https://schema.ld.admin.ch/municipality> <http://www.w3.org/2000/01/rdf-schema#label> "municipality" .
+<https://schema.ld.admin.ch/Municipality> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality" .
 <https://schema.ld.admin.ch/municipalityVersion> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/municipalityVersion> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/municipalityVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -217,6 +256,9 @@
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#label> "Political Municipality" .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\n*   Eine politische Gemeinde gehört zu einem oder zu keinem Bezirk.\n    \n*   Eine politische Gemeinde gehört immer zu einem Kanton."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Replicate the PropertyValue class of schema.org in order to give a flexible mechanism to manage multiple identifiers." .
+<https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/2000/01/rdf-schema#label> "PropertyValue" .
 <https://schema.ld.admin.ch/queryInterface> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2000/01/rdf-schema#comment> "The optional SPARQL query interface." .
