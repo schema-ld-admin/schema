@@ -21,6 +21,8 @@
 <https://schema.ld.admin.ch/address> <http://www.w3.org/2000/01/rdf-schema#comment> "the address of the subject based on one or both standards from schema.org and Location Core Vocabulary." .
 <https://schema.ld.admin.ch/address> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
 <https://schema.ld.admin.ch/Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address" .
+<https://schema.ld.admin.ch/Address> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/PostalAddress> .
+<https://schema.ld.admin.ch/Address> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/locn#Address> .
 <https://schema.ld.admin.ch/address> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/address> .
 <https://schema.ld.admin.ch/address> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://www.w3.org/ns/locn#address> .
 <https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
