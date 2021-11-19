@@ -34,8 +34,8 @@ _:b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#inte
 <https://schema.ld.admin.ch/office/nb> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/office/nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/nb> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss National Library" .
-<https://schema.ld.admin.ch/office/nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/nb> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Federal Office of Energy" .
+<https://schema.ld.admin.ch/office/sfoe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.ld.admin.ch/office/sfoe> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Federal Office of Energy" .
 <https://schema.ld.admin.ch/tests/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/tests/first-steps> .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#comment> "Space availble to test adding new Classes and Properties to get familiar with the schema editor." .
