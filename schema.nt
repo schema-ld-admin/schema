@@ -31,10 +31,12 @@
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Histoire de l'institution" .
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#label> "administrativeHistory" .
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2004/02/skos/core#note> "'Histoire de l'institution' décrit le développement de l'organisation sous forme textuelle."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
+<https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton to which the municipality belongs currently." .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/contactPoint> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
