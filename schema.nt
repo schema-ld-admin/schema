@@ -35,6 +35,7 @@
 <https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Canton> .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a canton to the subject" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton to which the municipality belongs currently." .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
