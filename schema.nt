@@ -281,6 +281,10 @@
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#label> "replacer" .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/replacer> .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/2004/02/skos/core#note> "Le code ISIL qui remplace le code ISIL de l'organisation actuelle.\n\nL'organisation actuelle est donc inactive et dissoute. Tout ou partie de ses fonds ont été transférés au successeur."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/Session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/Session> <http://www.w3.org/2000/01/rdf-schema#comment> "The period of time in which Parliament meets is called a session." .
+<https://schema.ld.admin.ch/Session> <http://www.w3.org/2000/01/rdf-schema#label> "Session" .
+<https://schema.ld.admin.ch/Session> <http://www.w3.org/2004/02/skos/core#note> "See also [https://www.parlament.ch/en/ratsbetrieb/sessions](https://www.parlament.ch/en/ratsbetrieb/sessions)"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "A DefinedTermSet which will be presented as a target for values in the Cube Creator." .
 <https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2000/01/rdf-schema#label> "SharedDimension" .
