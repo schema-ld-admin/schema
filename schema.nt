@@ -146,6 +146,10 @@
 <https://schema.ld.admin.ch/legalName> <http://www.w3.org/2000/01/rdf-schema#comment> "Official name of the business" .
 <https://schema.ld.admin.ch/legalName> <http://www.w3.org/2000/01/rdf-schema#label> "legalName" .
 <https://schema.ld.admin.ch/legalName> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/legalName> .
+<https://schema.ld.admin.ch/LegislaturePeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/LegislaturePeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Term of office of the National Council." .
+<https://schema.ld.admin.ch/LegislaturePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "LegislaturePeriod" .
+<https://schema.ld.admin.ch/LegislaturePeriod> <http://www.w3.org/2004/02/skos/core#note> "Term of office of the National Council, which begins with the constituent sitting of the Council at the start of the winter session following the general election and lasts for four years.\n\nAs defined by [https://www.parlament.ch/en/%C3%BCber-das-parlament/parlamentsw%C3%B6rterbuch/parlamentsw%C3%B6rterbuch-detail?WordId=136](https://www.parlament.ch/en/%C3%BCber-das-parlament/parlamentsw%C3%B6rterbuch/parlamentsw%C3%B6rterbuch-detail?WordId=136)\n\nSee also: [https://www.termdat.bk.admin.ch/entry/57075](https://www.termdat.bk.admin.ch/entry/57075)"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
