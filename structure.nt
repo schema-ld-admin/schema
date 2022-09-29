@@ -1,5 +1,5 @@
-_:b11_b23_b21_b15_b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "64" .
+_:b87_b11_b23_b21_b15_b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "65" .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
@@ -24,6 +24,7 @@ _:b11_b23_b21_b15_b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/200
 <https://schema.ld.admin.ch/office/bfs> <http://schema.org/hasPart> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/office/bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/bfs> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Statistical Office" .
+<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LegislaturePeriod> .
 <https://schema.ld.admin.ch/office/bk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/bk> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Chancellery" .
 <https://schema.ld.admin.ch/office/ech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
