@@ -92,6 +92,11 @@
 <https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2000/01/rdf-schema#comment> "First time the dataset is published as RDF." .
 <https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Date Published" .
 <https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/datePublished> .
+<https://schema.ld.admin.ch/datasetNextDateModified> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
+<https://schema.ld.admin.ch/datasetNextDateModified> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
+<https://schema.ld.admin.ch/datasetNextDateModified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/datasetNextDateModified> <http://www.w3.org/2000/01/rdf-schema#comment> "The planned next update date of a dataset." .
+<https://schema.ld.admin.ch/datasetNextDateModified> <http://www.w3.org/2000/01/rdf-schema#label> "datasetNextDateModified" .
 <https://schema.ld.admin.ch/datasetPublisher> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2000/01/rdf-schema#comment> "Which platform or database is used for the publishing of the dataset." .
