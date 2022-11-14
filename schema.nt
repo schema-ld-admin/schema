@@ -31,6 +31,14 @@
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Histoire de l'institution" .
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#label> "administrativeHistory" .
 <https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2004/02/skos/core#note> "'Histoire de l'institution' décrit le développement de l'organisation sous forme textuelle."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/alternateReference> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternate reference" .
+<https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/2000/01/rdf-schema#label> "alternateReference" .
+<https://schema.ld.admin.ch/author> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/author> <http://www.w3.org/2000/01/rdf-schema#comment> "author" .
+<https://schema.ld.admin.ch/author> <http://www.w3.org/2000/01/rdf-schema#label> "author" .
 <https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Canton> .
@@ -46,6 +54,14 @@
 <https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The specific Person or Organization with contact details for questions regarding the Subject." .
 <https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Point" .
 <https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/contactPoint> .
+<https://schema.ld.admin.ch/country> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/country> <http://www.w3.org/2000/01/rdf-schema#comment> "country" .
+<https://schema.ld.admin.ch/country> <http://www.w3.org/2000/01/rdf-schema#label> "country" .
+<https://schema.ld.admin.ch/coverture> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/coverture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/coverture> <http://www.w3.org/2000/01/rdf-schema#comment> "coverture" .
+<https://schema.ld.admin.ch/coverture> <http://www.w3.org/2000/01/rdf-schema#label> "coverture" .
 <https://schema.ld.admin.ch/datasetContributor> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/datasetContributor> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -115,6 +131,19 @@
 <https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "An example query in SPARQL adapted to the dataset." .
 <https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2000/01/rdf-schema#label> "exampleSPARQLQuery" .
 <https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2004/02/skos/core#note> "The provided SPARQL queries can be used as examples on the interface specified with <[https://schema.ld.admin.ch/queryInterface](https://schema.ld.admin.ch/queryInterface)\\>."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/form> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/form> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/form> <http://www.w3.org/2000/01/rdf-schema#comment> "form" .
+<https://schema.ld.admin.ch/form> <http://www.w3.org/2000/01/rdf-schema#label> "form" .
+<https://schema.ld.admin.ch/format> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/format> <http://www.w3.org/2000/01/rdf-schema#comment> "format" .
+<https://schema.ld.admin.ch/format> <http://www.w3.org/2000/01/rdf-schema#label> "format" .
+<https://schema.ld.admin.ch/hasPicture> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/hasPicture> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://schema.ld.admin.ch/hasPicture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/hasPicture> <http://www.w3.org/2000/01/rdf-schema#comment> "hasPicture" .
+<https://schema.ld.admin.ch/hasPicture> <http://www.w3.org/2000/01/rdf-schema#label> "hasPicture" .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
@@ -134,6 +163,10 @@
 <https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description des fonds" .
 <https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#label> "inventoryDescription" .
 <https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2004/02/skos/core#note> "La description des fonds est une description textuelle de tous les inventaires collectés par l'organisation."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/involve> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/involve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/involve> <http://www.w3.org/2000/01/rdf-schema#comment> "involve" .
+<https://schema.ld.admin.ch/involve> <http://www.w3.org/2000/01/rdf-schema#label> "involve" .
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/2000/01/rdf-schema#comment> "International Standard Identifier for Libraries" .
 <https://schema.ld.admin.ch/Isil> <http://www.w3.org/2000/01/rdf-schema#label> "ISIL" .
@@ -197,6 +230,14 @@
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date à laquelle les différentes mesures ont été collectées. Inclus l'heure si souhaité." .
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2000/01/rdf-schema#label> "observationDate" .
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/cvdCollectionDate> .
+<https://schema.ld.admin.ch/oldReferenceCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/oldReferenceCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/oldReferenceCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Old reference code" .
+<https://schema.ld.admin.ch/oldReferenceCode> <http://www.w3.org/2000/01/rdf-schema#label> "oldReferenceCode" .
+<https://schema.ld.admin.ch/oldReferenceNumber> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/oldReferenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/oldReferenceNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Old reference number" .
+<https://schema.ld.admin.ch/oldReferenceNumber> <http://www.w3.org/2000/01/rdf-schema#label> "oldReferenceNumber" .
 <https://schema.ld.admin.ch/otherMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/otherMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -264,9 +305,22 @@
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#label> "Political Municipality" .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\n*   Eine politische Gemeinde gehört zu einem oder zu keinem Bezirk.\n    \n*   Eine politische Gemeinde gehört immer zu einem Kanton."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/position> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/position> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://schema.ld.admin.ch/position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/position> <http://www.w3.org/2000/01/rdf-schema#comment> "Position" .
+<https://schema.ld.admin.ch/position> <http://www.w3.org/2000/01/rdf-schema#label> "position" .
+<https://schema.ld.admin.ch/predecessor> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/predecessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/predecessor> <http://www.w3.org/2000/01/rdf-schema#comment> "predecessor" .
+<https://schema.ld.admin.ch/predecessor> <http://www.w3.org/2000/01/rdf-schema#label> "predecessor" .
 <https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Replicate the PropertyValue class of schema.org in order to give a flexible mechanism to manage multiple identifiers." .
 <https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/2000/01/rdf-schema#label> "PropertyValue" .
+<https://schema.ld.admin.ch/publisher> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "publisher" .
+<https://schema.ld.admin.ch/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "publisher" .
 <https://schema.ld.admin.ch/queryInterface> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2000/01/rdf-schema#comment> "The optional SPARQL query interface." .
@@ -274,6 +328,18 @@
 <https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<xsd:boolean> .
 <https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3.org/ns/dcat#accessURL> .
 <https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2004/02/skos/core#note> "This property specifies if available the location of a query interface adapted to the dataset."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Record resources held by the Swiss federal archive" .
+<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2000/01/rdf-schema#label> "RecordResource" .
+<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2004/02/skos/core#example> "PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>\nPREFIX : <https://schema.ld.admin.ch/office/bar/>\n\n<http://culture.ld.admin.ch/ais/1> a :RecordResource, rico:RecordSet ;\n    rico:title \"Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" ;\n    rico:hasOrHadHolder <https://culture.ld.admin.ch/isil/CH-000018-2> ;\n    :referenceCode \"CH-BAR#Unterlagen*\" ;\n    :position 100 .\n" .
+<https://schema.ld.admin.ch/referenceCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/referenceCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/referenceCode> <http://www.w3.org/2000/01/rdf-schema#comment> "record resource identifier" .
+<https://schema.ld.admin.ch/referenceCode> <http://www.w3.org/2000/01/rdf-schema#label> "referenceCode" .
+<https://schema.ld.admin.ch/referenceNumber> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "record resource classification" .
+<https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/2000/01/rdf-schema#label> "referenceNumber" .
 <https://schema.ld.admin.ch/replacer> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/replacer> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -321,6 +387,10 @@
 <https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The SPARQL Endpoint where the dataset is available." .
 <https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2000/01/rdf-schema#label> "sparql Endpoint" .
 <https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://rdfs.org/ns/void#sparqlEndpoint> .
+<https://schema.ld.admin.ch/successor> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/successor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/successor> <http://www.w3.org/2000/01/rdf-schema#comment> "successor" .
+<https://schema.ld.admin.ch/successor> <http://www.w3.org/2000/01/rdf-schema#label> "successor" .
 <https://schema.ld.admin.ch/termCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/termCode> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -332,6 +402,10 @@
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe structurant les différentes données récoltées durant une pandémie" .
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2000/01/rdf-schema#label> "TESTPandemicObservation" .
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/CDCPMDRecord> .
+<https://schema.ld.admin.ch/thema> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
+<https://schema.ld.admin.ch/thema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/thema> <http://www.w3.org/2000/01/rdf-schema#comment> "thema" .
+<https://schema.ld.admin.ch/thema> <http://www.w3.org/2000/01/rdf-schema#label> "thema" .
 <https://schema.ld.admin.ch/valid> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/valid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/valid> <http://www.w3.org/2000/01/rdf-schema#comment> "État de validité du code ISIL" .
