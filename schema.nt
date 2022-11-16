@@ -336,6 +336,7 @@
 <https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Record resources held by the Swiss federal archive" .
 <https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2000/01/rdf-schema#label> "RecordResource" .
+<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2002/07/owl#equivalentClass> <https://www.ica.org/standards/RiC/ontology#RecordResource> .
 <https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2004/02/skos/core#example> "PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>\nPREFIX : <https://schema.ld.admin.ch/office/bar/>\n\n<http://culture.ld.admin.ch/ais/1> a :RecordResource, rico:RecordSet ;\n    rico:title \"Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" ;\n    rico:hasOrHadHolder <https://culture.ld.admin.ch/isil/CH-000018-2> ;\n    :referenceCode \"CH-BAR#Unterlagen*\" ;\n    :position 100 .\n" .
 <https://schema.ld.admin.ch/referenceCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
 <https://schema.ld.admin.ch/referenceCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
