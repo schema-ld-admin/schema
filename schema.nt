@@ -35,6 +35,11 @@
 <https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternate reference" .
 <https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/2000/01/rdf-schema#label> "alternateReference" .
+<https://schema.ld.admin.ch/atomicNumber> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ChemicalElement> .
+<https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "atomic number" .
+<https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/2000/01/rdf-schema#label> "atomicNumber" .
+<https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.wikidata.org/entity/P1086> .
 <https://schema.ld.admin.ch/author> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
 <https://schema.ld.admin.ch/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/author> <http://www.w3.org/2000/01/rdf-schema#comment> "author" .
@@ -56,6 +61,11 @@
 <https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/2000/01/rdf-schema#comment> "Chemical compounds" .
 <https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/2000/01/rdf-schema#label> "ChemicalCompound" .
+<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Periodic table of chemical elements" .
+<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/2000/01/rdf-schema#label> "ChemicalElement" .
+<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q11344> .
+<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/2004/02/skos/core#example> "PREFIX schema: <http://schema.org/>\nPREFIX : <https://schema.ld.admin.ch/> \n\n<https://ld.admin.ch/vocabulary/chemicalElements/2> a :ChemicalElement ;\n   schema:name \"helium\"@en , \"hélium\"@fr , \"elio\"@it , \"Helium\"@de ;\n   :elementSymbol \"He\" ;\n   :atomicNumber 2 ." .
 <https://schema.ld.admin.ch/contactPoint> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/contactPoint> <http://schema.org/rangeIncludes> <http://schema.org/ContactPoint> .
 <https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
