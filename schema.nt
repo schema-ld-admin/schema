@@ -39,6 +39,11 @@
 <https://schema.ld.admin.ch/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/author> <http://www.w3.org/2000/01/rdf-schema#comment> "author" .
 <https://schema.ld.admin.ch/author> <http://www.w3.org/2000/01/rdf-schema#label> "author" .
+<https://schema.ld.admin.ch/canonicalSmiles> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ChemicalCompound> .
+<https://schema.ld.admin.ch/canonicalSmiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/canonicalSmiles> <http://www.w3.org/2000/01/rdf-schema#comment> "canonical  smiles" .
+<https://schema.ld.admin.ch/canonicalSmiles> <http://www.w3.org/2000/01/rdf-schema#label> "canonicalSmiles" .
+<https://schema.ld.admin.ch/canonicalSmiles> <http://www.w3.org/2004/02/skos/core#note> "The SMILES format is a linear text format which can describe the connectivity and chirality of a molecule. Canonical SMILES gives a single ‘canonical’ form for any particular molecule."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
 <https://schema.ld.admin.ch/canton> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Canton> .
@@ -48,6 +53,9 @@
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton to which the municipality belongs currently." .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
 <https://schema.ld.admin.ch/canton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/2000/01/rdf-schema#comment> "Chemical compounds" .
+<https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/2000/01/rdf-schema#label> "ChemicalCompound" .
 <https://schema.ld.admin.ch/contactPoint> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/contactPoint> <http://schema.org/rangeIncludes> <http://schema.org/ContactPoint> .
 <https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
