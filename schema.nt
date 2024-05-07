@@ -35,6 +35,12 @@
 <https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternate reference" .
 <https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/2000/01/rdf-schema#label> "alternateReference" .
+<https://schema.ld.admin.ch/applicableCountry> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
+<https://schema.ld.admin.ch/applicableCountry> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
+<https://schema.ld.admin.ch/applicableCountry> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
+<https://schema.ld.admin.ch/applicableCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/applicableCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication of the country in the case of several synonyms or national variants of terms, names, technical terms or abbreviations." .
+<https://schema.ld.admin.ch/applicableCountry> <http://www.w3.org/2000/01/rdf-schema#label> "Applicable Country" .
 <https://schema.ld.admin.ch/atomicNumber> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ChemicalElement> .
 <https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "atomic number" .
