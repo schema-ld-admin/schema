@@ -1,5 +1,5 @@
-_:b41_b35_b13_b7_b37_b193_b63_b93_b87_b11_b23_b21_b15_b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "73" .
+_:b45_b41_b35_b13_b7_b37_b193_b63_b93_b87_b11_b23_b21_b15_b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "74" .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/ChemicalCompound> .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/ChemicalElement> .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LindasDataset> .
@@ -27,6 +27,7 @@ _:b41_b35_b13_b7_b37_b193_b63_b93_b87_b11_b23_b21_b15_b15_b2 <http://schema.org/
 <https://schema.ld.admin.ch/office/bfs> <http://schema.org/hasPart> <https://schema.ld.admin.ch/PoliticalMunicipality> .
 <https://schema.ld.admin.ch/office/bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.ld.admin.ch/office/bfs> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Statistical Office" .
+<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Glossary> .
 <https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LegislaturePeriod> .
 <https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Session> .
 <https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/TerminologyCollection> .
