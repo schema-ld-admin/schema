@@ -331,6 +331,9 @@
 <https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s sous aide respiratoire avec un diagnostic confirmé du virus" .
 <https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandVentilatedPats" .
+<https://schema.ld.admin.ch/Phraseology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/Phraseology> <http://www.w3.org/2000/01/rdf-schema#comment> "Specialised usage (subject-specific phrase): Group of syntactically related words which has an overall technical meaning not consisting of the sum of the individual meanings of the words or which is regarded as formulaic or stereotypical (DIN 2342:2011-08, 5.1.6)." .
+<https://schema.ld.admin.ch/Phraseology> <http://www.w3.org/2000/01/rdf-schema#label> "Phraseology" .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
 <https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#label> "Political Municipality" .
