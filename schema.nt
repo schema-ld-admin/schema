@@ -162,6 +162,9 @@
 <https://schema.ld.admin.ch/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/format> <http://www.w3.org/2000/01/rdf-schema#comment> "format" .
 <https://schema.ld.admin.ch/format> <http://www.w3.org/2000/01/rdf-schema#label> "format" .
+<https://schema.ld.admin.ch/Glossary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/Glossary> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of Terms which is used as a glossary." .
+<https://schema.ld.admin.ch/Glossary> <http://www.w3.org/2000/01/rdf-schema#label> "Glossary" .
 <https://schema.ld.admin.ch/hasPicture> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
 <https://schema.ld.admin.ch/hasPicture> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://schema.ld.admin.ch/hasPicture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
