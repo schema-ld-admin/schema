@@ -228,6 +228,12 @@
 <https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Dataset> .
 <https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/dcat#Dataset> .
 <https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2004/02/skos/core#note> "It is mandatory to use the equivalentClass and equivalentProperty of the described properties and not use the properties in the schema.ld.admin.ch namespace.\n\nSee for example [http://lod.opentransportdata.swiss/.well-known/dataset/didok](http://lod.opentransportdata.swiss/.well-known/dataset/didok)\n\nThe information instantiated with this class will be used for the [https://opendata.swiss/](https://opendata.swiss/) and [https://lindas.admin.ch/datasets](https://lindas.admin.ch/datasets)."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/linguisticContext> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
+<https://schema.ld.admin.ch/linguisticContext> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
+<https://schema.ld.admin.ch/linguisticContext> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
+<https://schema.ld.admin.ch/linguisticContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/linguisticContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Linguistic context in which a designation (term) or a specialised a specialised use (phraseology) can occur (DIN 2342:2011-08, 5.2)." .
+<https://schema.ld.admin.ch/linguisticContext> <http://www.w3.org/2000/01/rdf-schema#label> "Linguistic Context" .
 <https://schema.ld.admin.ch/longName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "District name or official municipality name." .
