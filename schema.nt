@@ -246,10 +246,14 @@
 <https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nDie Historisierungsnummer Gemeinde wird als nicht sprechender, übergeordneter Schlüssel in der Entität geführt. **Sie ermöglicht die Historisierung der Mutationsprozesse auf Gemeindeebene.**"^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/name> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/Name> <http://www.w3.org/2000/01/rdf-schema#comment> "Linguistic designation of an individual term (DIN 2342:2011-08, 5.1.4)." .
 <https://schema.ld.admin.ch/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of subject." .
 <https://schema.ld.admin.ch/name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+<https://schema.ld.admin.ch/Name> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
 <https://schema.ld.admin.ch/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/title> .
 <https://schema.ld.admin.ch/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/name> .
+<https://schema.ld.admin.ch/Name> <http://www.w3.org/2004/02/skos/core#note> "The name as a linguistic designation of an individual term is to be distinguished from the term as a linguistic designation of a general [term](https://schema.ld.admin.ch/Term)."^^<http://media-type.described.at/text/markdown> .
 <https://schema.ld.admin.ch/observationDate> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
 <https://schema.ld.admin.ch/observationDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://schema.ld.admin.ch/observationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
