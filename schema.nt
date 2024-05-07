@@ -143,6 +143,12 @@
 <https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of subject." .
 <https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
 <https://schema.ld.admin.ch/description> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/description> .
+<https://schema.ld.admin.ch/entryStatus> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
+<https://schema.ld.admin.ch/entryStatus> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
+<https://schema.ld.admin.ch/entryStatus> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
+<https://schema.ld.admin.ch/entryStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/entryStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the processing status of an entry." .
+<https://schema.ld.admin.ch/entryStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Entry status" .
 <https://schema.ld.admin.ch/exampleResource> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
 <https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to an example resource for easy entry in the dataset." .
