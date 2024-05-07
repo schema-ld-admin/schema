@@ -1,5 +1,5 @@
-_:b151_b147_b13_b7_b13_b59_b55_b51_b45_b41_b35_b13_b7_b37_b193_b63_b93_b87_b11_b23_b21_b15_b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "82" .
+_:b219_b151_b147_b13_b7_b13_b59_b55_b51_b45_b41_b35_b13_b7_b37_b193_b63_b93_b87_b11_b23_b21_b15_b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "83" .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/ChemicalCompound> .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/ChemicalElement> .
 <https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LindasDataset> .
