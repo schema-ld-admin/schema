@@ -422,6 +422,9 @@
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#label> "termCode" .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/termCode> .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/2004/02/skos/core#note> "International Standard Identifier for Libraries and Related Organizations (ISIL).\n\nUn identifiant unique pour les bibliothèques et assimilés ou les unités organisationnelles subordonnées, émis par la Bibliothèque nationale suisse par sa fonction d'agence ISIL.\n\nLa chaîne est assortie de l'expression régulière suivantet: '\\[(CH|LI)\\]{2}-\\[0-9\\]{6}-\\[0-9X\\]{1}'"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/TerminologyOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/TerminologyOffice> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication of the terminology office responsible for the entry or terminology collection.\n" .
+<https://schema.ld.admin.ch/TerminologyOffice> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology office" .
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe structurant les différentes données récoltées durant une pandémie" .
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2000/01/rdf-schema#label> "TESTPandemicObservation" .
