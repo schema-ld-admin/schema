@@ -374,6 +374,12 @@
 <https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "record resource classification" .
 <https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/2000/01/rdf-schema#label> "referenceNumber" .
+<https://schema.ld.admin.ch/reliabilityCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
+<https://schema.ld.admin.ch/reliabilityCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
+<https://schema.ld.admin.ch/reliabilityCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
+<https://schema.ld.admin.ch/reliabilityCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.ld.admin.ch/reliabilityCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the quality (terminological reliability and processing status) of the entire entry." .
+<https://schema.ld.admin.ch/reliabilityCode> <http://www.w3.org/2000/01/rdf-schema#label> "Reliability code" .
 <https://schema.ld.admin.ch/replacer> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/replacer> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/replacer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
