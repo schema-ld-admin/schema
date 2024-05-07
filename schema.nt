@@ -195,6 +195,9 @@
 <https://schema.ld.admin.ch/identifer> <http://www.w3.org/2000/01/rdf-schema#comment> "relates an entity with an identifier used in an another database system. To allow multiple identifiers, a PropertyValue structure is used." .
 <https://schema.ld.admin.ch/identifer> <http://www.w3.org/2000/01/rdf-schema#label> "identifer" .
 <https://schema.ld.admin.ch/identifer> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/identifier> .
+<https://schema.ld.admin.ch/InProgressEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/InProgressEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "This status is assigned to entries that are in the process of being drafted and checked in terms of language, form and content, or that are currently being revised/updated." .
+<https://schema.ld.admin.ch/InProgressEntry> <http://www.w3.org/2000/01/rdf-schema#label> "In Progress Entry" .
 <https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
 <https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
