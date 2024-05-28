@@ -479,6 +479,9 @@
 <https://schema.ld.admin.ch/termNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Information on the term, designation (use) or language." .
 <https://schema.ld.admin.ch/termNote> <http://www.w3.org/2000/01/rdf-schema#label> "Term Note" .
 <https://schema.ld.admin.ch/termNote> <http://www.w3.org/2004/02/skos/core#note> "In contrast to a definition, a conceptual note does not contain the essential characteristics, but rather supplementary characteristics of the term under discussion."^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/TermSubDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.ld.admin.ch/TermSubDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A terminological sub-domain." .
+<https://schema.ld.admin.ch/TermSubDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Term Sub-Domain" .
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe structurant les différentes données récoltées durant une pandémie" .
 <https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2000/01/rdf-schema#label> "TESTPandemicObservation" .
