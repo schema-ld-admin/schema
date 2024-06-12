@@ -463,9 +463,15 @@
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#label> "termCode" .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/termCode> .
 <https://schema.ld.admin.ch/termCode> <http://www.w3.org/2004/02/skos/core#note> "International Standard Identifier for Libraries and Related Organizations (ISIL).\n\nUn identifiant unique pour les bibliothèques et assimilés ou les unités organisationnelles subordonnées, émis par la Bibliothèque nationale suisse par sa fonction d'agence ISIL.\n\nLa chaîne est assortie de l'expression régulière suivantet: '\\[(CH|LI)\\]{2}-\\[0-9\\]{6}-\\[0-9X\\]{1}'"^^<http://media-type.described.at/text/markdown> .
+<https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
+<https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
+<https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
+<https://schema.ld.admin.ch/termDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/TermDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/TermDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A terminological domain." .
+<https://schema.ld.admin.ch/termDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication of one or more domains to which the term term belongs." .
 <https://schema.ld.admin.ch/TermDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Term Domain" .
+<https://schema.ld.admin.ch/termDomain> <http://www.w3.org/2000/01/rdf-schema#label> "termDomain" .
 <https://schema.ld.admin.ch/TerminologyCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/TerminologyCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication of the terminology collection to which the relevant entry belongs to. On the one hand, these are thematic collections relating to a subject area, which are systematically compiled as part of a terminology project." .
 <https://schema.ld.admin.ch/TerminologyCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology collection" .
