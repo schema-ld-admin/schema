@@ -466,6 +466,8 @@
 <https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
 <https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
 <https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
+<https://schema.ld.admin.ch/termDomain> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/TermDomain> .
+<https://schema.ld.admin.ch/termDomain> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/TermSubDomain> .
 <https://schema.ld.admin.ch/termDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://schema.ld.admin.ch/TermDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.ld.admin.ch/TermDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A terminological domain." .
