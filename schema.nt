@@ -1,528 +1,640 @@
-<https://schema.ld.admin.ch/about> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/about> <http://schema.org/rangeIncludes> <https://schema.org/Organization> .
-<https://schema.ld.admin.ch/about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#comment> "L'organisation à qui le numéro ISIL est attribué." .
-<https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#comment> "The organisation to which the ISIL belongs." .
-<https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#label> "about " .
-<https://schema.ld.admin.ch/about> <http://www.w3.org/2000/01/rdf-schema#label> "about" .
-<https://schema.ld.admin.ch/about> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/about> .
-<https://schema.ld.admin.ch/about> <http://www.w3.org/2004/02/skos/core#note> "L'organisation selon schema.org à laquelle un numéro ISIL est attribué.\n\nLa classe 'organisation' peut être subdivisée en Library ou ArchiveOrganisation.\n\nLa classe 'Organisation' utilise 'identifier' pour se référer au numéro ISIL."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/about> <http://www.w3.org/2004/02/skos/core#note> "The [Organisation](https://schema.org/Organization) to which the ISIL belongs to as defined in _schema.org_. It can be further sub-classed into [Library](https://schema.org/Library) or [ArchiveOrganization](https://schema.org/ArchiveOrganization).\n\nThe Class Organisation itself uses [identifier](https://schema.org/identifier) to point to an [ISIL](https://schema.ld.admin.ch/Isil)."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/additionalType> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
-<https://schema.ld.admin.ch/additionalType> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/DefinedTerm> .
-<https://schema.ld.admin.ch/additionalType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/additionalType> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a company category to the entity from the list https://ld.admin.ch/ech/97/legalforms" .
-<https://schema.ld.admin.ch/additionalType> <http://www.w3.org/2000/01/rdf-schema#label> "additionalType" .
-<https://schema.ld.admin.ch/address> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
-<https://schema.ld.admin.ch/address> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Address> .
-<https://schema.ld.admin.ch/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/Address> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic address class that cover the schema.org address model and the LOCN address model" .
-<https://schema.ld.admin.ch/address> <http://www.w3.org/2000/01/rdf-schema#comment> "the address of the subject based on one or both standards from schema.org and Location Core Vocabulary." .
-<https://schema.ld.admin.ch/address> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
-<https://schema.ld.admin.ch/Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address" .
-<https://schema.ld.admin.ch/Address> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/PostalAddress> .
-<https://schema.ld.admin.ch/Address> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/locn#Address> .
-<https://schema.ld.admin.ch/address> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/address> .
-<https://schema.ld.admin.ch/address> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://www.w3.org/ns/locn#address> .
-<https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/administrativeHistory> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Histoire de l'institution" .
-<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2000/01/rdf-schema#label> "administrativeHistory" .
-<https://schema.ld.admin.ch/administrativeHistory> <http://www.w3.org/2004/02/skos/core#note> "'Histoire de l'institution' décrit le développement de l'organisation sous forme textuelle."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/alternateReference> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternate reference" .
-<https://schema.ld.admin.ch/alternateReference> <http://www.w3.org/2000/01/rdf-schema#label> "alternateReference" .
-<https://schema.ld.admin.ch/applicableCountry> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
-<https://schema.ld.admin.ch/applicableCountry> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
-<https://schema.ld.admin.ch/applicableCountry> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
-<https://schema.ld.admin.ch/applicableCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/applicableCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication of the country in the case of several synonyms or national variants of terms, names, technical terms or abbreviations." .
-<https://schema.ld.admin.ch/applicableCountry> <http://www.w3.org/2000/01/rdf-schema#label> "Applicable Country" .
-<https://schema.ld.admin.ch/atomicNumber> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ChemicalElement> .
-<https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "atomic number" .
-<https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/2000/01/rdf-schema#label> "atomicNumber" .
-<https://schema.ld.admin.ch/atomicNumber> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.wikidata.org/entity/P1086> .
-<https://schema.ld.admin.ch/author> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/author> <http://www.w3.org/2000/01/rdf-schema#comment> "author" .
-<https://schema.ld.admin.ch/author> <http://www.w3.org/2000/01/rdf-schema#label> "author" .
-<https://schema.ld.admin.ch/canonicalSmiles> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ChemicalCompound> .
-<https://schema.ld.admin.ch/canonicalSmiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/canonicalSmiles> <http://www.w3.org/2000/01/rdf-schema#comment> "canonical  smiles" .
-<https://schema.ld.admin.ch/canonicalSmiles> <http://www.w3.org/2000/01/rdf-schema#label> "canonicalSmiles" .
-<https://schema.ld.admin.ch/canonicalSmiles> <http://www.w3.org/2004/02/skos/core#note> "The SMILES format is a linear text format which can describe the connectivity and chirality of a molecule. Canonical SMILES gives a single ‘canonical’ form for any particular molecule."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
-<https://schema.ld.admin.ch/canton> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/canton> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Canton> .
-<https://schema.ld.admin.ch/canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a canton to the subject" .
-<https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton de provenance de l'observation" .
-<https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton to which the municipality belongs currently." .
-<https://schema.ld.admin.ch/canton> <http://www.w3.org/2000/01/rdf-schema#label> "canton" .
-<https://schema.ld.admin.ch/canton> <http://www.w3.org/2004/02/skos/core#note> "Abréviation du canton dans lequel le test ou le cas est répertorié. N'a pas de lien avec le canton d'habitation du patient."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/2000/01/rdf-schema#comment> "Chemical compounds" .
-<https://schema.ld.admin.ch/ChemicalCompound> <http://www.w3.org/2000/01/rdf-schema#label> "ChemicalCompound" .
-<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Periodic table of chemical elements" .
-<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/2000/01/rdf-schema#label> "ChemicalElement" .
-<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q11344> .
-<https://schema.ld.admin.ch/ChemicalElement> <http://www.w3.org/2004/02/skos/core#example> "PREFIX schema: <http://schema.org/>\nPREFIX : <https://schema.ld.admin.ch/> \n\n<https://ld.admin.ch/vocabulary/chemicalElements/2> a :ChemicalElement ;\n   schema:name \"helium\"@en , \"hélium\"@fr , \"elio\"@it , \"Helium\"@de ;\n   :elementSymbol \"He\" ;\n   :atomicNumber 2 ." .
-<https://schema.ld.admin.ch/contactPoint> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/contactPoint> <http://schema.org/rangeIncludes> <http://schema.org/ContactPoint> .
-<https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The specific Person or Organization with contact details for questions regarding the Subject." .
-<https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Point" .
-<https://schema.ld.admin.ch/contactPoint> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/contactPoint> .
-<https://schema.ld.admin.ch/country> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/country> <http://www.w3.org/2000/01/rdf-schema#comment> "country" .
-<https://schema.ld.admin.ch/country> <http://www.w3.org/2000/01/rdf-schema#label> "country" .
-<https://schema.ld.admin.ch/coverture> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/coverture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/coverture> <http://www.w3.org/2000/01/rdf-schema#comment> "coverture" .
-<https://schema.ld.admin.ch/coverture> <http://www.w3.org/2000/01/rdf-schema#label> "coverture" .
-<https://schema.ld.admin.ch/datasetContributor> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetContributor> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
-<https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/2000/01/rdf-schema#comment> "The organization facilitating the transformation and publishing of the dataset. if different from the creator." .
-<https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/2000/01/rdf-schema#label> "datasetContributor" .
-<https://schema.ld.admin.ch/datasetContributor> <http://www.w3.org/2004/02/skos/core#note> "The organization facilitating the transformation and publishing of the dataset.\n\nOnly necessary if different from the <[https://schema.ld.admin.ch/datasetCreator](https://schema.ld.admin.ch/datasetCreator)\\>."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/datasetCreator> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetCreator> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
-<https://schema.ld.admin.ch/datasetCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "The organization responsible for the dataset." .
-<https://schema.ld.admin.ch/datasetCreator> <http://www.w3.org/2000/01/rdf-schema#label> "datasetCreator" .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2000/01/rdf-schema#comment> "The date when the source of dataset was created or updated." .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Date Created" .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/dateCreated> .
-<https://schema.ld.admin.ch/datasetDateCreated> <http://www.w3.org/2004/02/skos/core#note> "In case of external dataset source the creation date of the input file.\n\nIn case the dataset is directly managed as RDF this property can be omitted."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/datasetDateModified> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetDateModified> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.ld.admin.ch/datasetDateModified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetDateModified> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of the last update of the dataset." .
-<https://schema.ld.admin.ch/datasetDateModified> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Date Modified" .
-<https://schema.ld.admin.ch/datasetDateModified> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/dateModified> .
-<https://schema.ld.admin.ch/datasetDatePublished> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetDatePublished> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2000/01/rdf-schema#comment> "First time the dataset is published as RDF." .
-<https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Date Published" .
-<https://schema.ld.admin.ch/datasetDatePublished> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/datePublished> .
-<https://schema.ld.admin.ch/datasetNextDateModified> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetNextDateModified> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.ld.admin.ch/datasetNextDateModified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetNextDateModified> <http://www.w3.org/2000/01/rdf-schema#comment> "The planned next update date of a dataset." .
-<https://schema.ld.admin.ch/datasetNextDateModified> <http://www.w3.org/2000/01/rdf-schema#label> "datasetNextDateModified" .
-<https://schema.ld.admin.ch/datasetPublisher> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2000/01/rdf-schema#comment> "Which platform or database is used for the publishing of the dataset." .
-<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Publisher" .
-<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/publisher> .
-<https://schema.ld.admin.ch/datasetPublisher> <http://www.w3.org/2004/02/skos/core#note> "This property describes which platform or database is used to publish the dataset.\n\nFor datasets on\n\n*   Lindas use <[https://ld.admin.ch/org/lindas](https://ld.admin.ch/org/lindas)\\>\n    \n*   Swisstopo use <[https://ld.admin.ch/org/geo](https://ld.admin.ch/org/geo)\\>"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/datasetUrl> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "URL where more information about the Dataset is available." .
-<https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Url" .
-<https://schema.ld.admin.ch/datasetUrl> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/url> .
-<https://schema.ld.admin.ch/datasetWorkExample> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/datasetWorkExample> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2000/01/rdf-schema#comment> "An application or work which is based on the dataset." .
-<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Work Example" .
-<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/workExample> .
-<https://schema.ld.admin.ch/datasetWorkExample> <http://www.w3.org/2004/02/skos/core#note> "This is mainly used to point to URLs hosting applications using this dataset."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/DefinedTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/DefinedTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "An element of a list of terms contained in a DefinedTermSet" .
-<https://schema.ld.admin.ch/DefinedTerm> <http://www.w3.org/2000/01/rdf-schema#label> "DefinedTerm" .
-<https://schema.ld.admin.ch/DefinedTerm> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/DefinedTerm> .
-<https://schema.ld.admin.ch/description> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/description> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
-<https://schema.ld.admin.ch/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of subject." .
-<https://schema.ld.admin.ch/description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
-<https://schema.ld.admin.ch/description> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/description> .
-<https://schema.ld.admin.ch/entryStatus> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
-<https://schema.ld.admin.ch/entryStatus> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
-<https://schema.ld.admin.ch/entryStatus> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
-<https://schema.ld.admin.ch/entryStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/entryStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the processing status of an entry." .
-<https://schema.ld.admin.ch/entryStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Entry status" .
-<https://schema.ld.admin.ch/exampleResource> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to an example resource for easy entry in the dataset." .
-<https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/2000/01/rdf-schema#label> "exampleResource" .
-<https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://rdfs.org/ns/void#exampleResource> .
-<https://schema.ld.admin.ch/exampleResource> <http://www.w3.org/2004/02/skos/core#note> "Ideally a link to one example of each main class of the dataset."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/exampleSparqlQuery> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2000/01/rdf-schema#comment> "An example query in SPARQL adapted to the dataset." .
-<https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2000/01/rdf-schema#label> "exampleSPARQLQuery" .
-<https://schema.ld.admin.ch/exampleSparqlQuery> <http://www.w3.org/2004/02/skos/core#note> "The provided SPARQL queries can be used as examples on the interface specified with <[https://schema.ld.admin.ch/queryInterface](https://schema.ld.admin.ch/queryInterface)\\>."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/form> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/form> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/form> <http://www.w3.org/2000/01/rdf-schema#comment> "form" .
-<https://schema.ld.admin.ch/form> <http://www.w3.org/2000/01/rdf-schema#label> "form" .
-<https://schema.ld.admin.ch/format> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/format> <http://www.w3.org/2000/01/rdf-schema#comment> "format" .
-<https://schema.ld.admin.ch/format> <http://www.w3.org/2000/01/rdf-schema#label> "format" .
-<https://schema.ld.admin.ch/Glossary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/Glossary> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of Terms which is used as a glossary." .
-<https://schema.ld.admin.ch/Glossary> <http://www.w3.org/2000/01/rdf-schema#label> "Glossary" .
-<https://schema.ld.admin.ch/hasPicture> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/hasPicture> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#boolean> .
-<https://schema.ld.admin.ch/hasPicture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/hasPicture> <http://www.w3.org/2000/01/rdf-schema#comment> "hasPicture" .
-<https://schema.ld.admin.ch/hasPicture> <http://www.w3.org/2000/01/rdf-schema#label> "hasPicture" .
-<https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
-<https://schema.ld.admin.ch/id> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
-<https://schema.ld.admin.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/id> <http://www.w3.org/2000/01/rdf-schema#comment> "The official identifier (xsd:int) of the subject." .
-<https://schema.ld.admin.ch/id> <http://www.w3.org/2000/01/rdf-schema#label> "id" .
-<https://schema.ld.admin.ch/id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/identifier> .
-<https://schema.ld.admin.ch/identifer> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
-<https://schema.ld.admin.ch/identifer> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/PropertyValue> .
-<https://schema.ld.admin.ch/identifer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/identifer> <http://www.w3.org/2000/01/rdf-schema#comment> "relates an entity with an identifier used in an another database system. To allow multiple identifiers, a PropertyValue structure is used." .
-<https://schema.ld.admin.ch/identifer> <http://www.w3.org/2000/01/rdf-schema#label> "identifer" .
-<https://schema.ld.admin.ch/identifer> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/identifier> .
-<https://schema.ld.admin.ch/InProgressEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/InProgressEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "This status is assigned to entries that are in the process of being drafted and checked in terms of language, form and content, or that are currently being revised/updated." .
-<https://schema.ld.admin.ch/InProgressEntry> <http://www.w3.org/2000/01/rdf-schema#label> "In Progress Entry" .
-<https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/inventoryDescription> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description des fonds" .
-<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2000/01/rdf-schema#label> "inventoryDescription" .
-<https://schema.ld.admin.ch/inventoryDescription> <http://www.w3.org/2004/02/skos/core#note> "La description des fonds est une description textuelle de tous les inventaires collectés par l'organisation."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/involve> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/involve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/involve> <http://www.w3.org/2000/01/rdf-schema#comment> "involve" .
-<https://schema.ld.admin.ch/involve> <http://www.w3.org/2000/01/rdf-schema#label> "involve" .
-<https://schema.ld.admin.ch/Isil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2000/01/rdf-schema#comment> "International Standard Identifier for Libraries" .
-<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2000/01/rdf-schema#label> "ISIL" .
-<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/DefinedTerm> .
-<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2004/02/skos/core#example> "<https://culture.ld.admin.ch/isil/CH-000001-5> a <http://schema.org/DefinedTerm> , <https://schema.ld.admin.ch/Isil> ;\n   <http://schema.org/validFrom> \"1895\" ;\n   <http://schema.org/name> \"Schweizerische Nationalbibliothek\" ;\n   <http://schema.org/url> \"https://www.helveticarchives.ch/detail.aspx?ID=167567\"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;\n   <http://schema.org/dateModified> \"2021-01-25\" ;\n   <http://schema.org/alternateName> \"BEL\" ;\n   <http://schema.org/termCode> \"CH-000001-5\" ;\n   <http://schema.org/inDefinedTermSet> <https://culture.ld.admin.ch/isil> ;\n   <http://schema.org/about> <https://culture.ld.admin.ch/isil/CH-000001-5/organization> ;\n   <https://schema.ld.admin.ch/administrativeHistory> \"Die Schweizerische Nationalbibliothek (NB) wurde 1895 als 'Schweizerische Landesbibliothek' gegründet. Sie hat den bundesgesetzlichen Auftrag, alle Publikationen mit einem Bezug zur Schweiz zu sammeln, zu erschliessen, zu erhalten und zugänglich zu machen. Diese Helvetica-Sammlung wird ergänzt durch diverse Sondersammlungen: die Graphische Sammlung, das Schweizerische Literaturarchiv und das Centre Dürrenmatt Neuchâtel. Die Graphische Sammlung (GS) umfasst ikonografische Dokumente zur Geografie, zum Brauchtum und zu kulturellen und politischen Themen der Schweiz, insbesondere Druckgraphik des 17. bis 20. Jahrhunderts sowie Portrait- und Landschafts-Fotografien. Die seit 1886 gesammelten Dokumente zu Archäologie, Denkmalpflege, Orts- und Landschaftsbildern, Architektur- und Kunstgeschichte sowie Volkskultur gehören als Bestand des Eidgenössischen Archivs für Denkmalpflege (EAD) seit 2007 ebenfalls zur Graphischen Sammlung der NB. Das Schweizerische Literaturarchiv (SLA) wurde 1991 auf Initiative Friedrich Dürrenmatts gegründet. Es betreut die literarischen Archive und Nachlässe zahlreicher Schweizer Autorinnen und Autoren, so unter anderem von Peter Bichsel, Alice Ceresa, Blaise Cendrars, Friedrich Dürrenmatt, Andri Peer und Patricia Highsmith. Als Aussenstelle der NB wurde im Jahr 2000 das Centre Dürrenmatt Neuchâtel (CDN) eröffnet, um Dürrenmatts bildnerisches Werk zugänglich zu machen und die interdisziplinäre Forschung zu befördern. Dieser ISIL-Code ist in der GND (Gemeinsame Normdatei) die Kennung für die NB-Sacherschliessung.\" ;\n   <https://schema.ld.admin.ch/inventoryDescription> \"Amtsdruckschriften,Vereinsschriften,Helvetica: schweizerische Buchproduktion,Schweizer Autoren in Original und Übersetzungen,Werke über die Schweiz, Schweizer Presse, Buch- und Bibliothekswesen, Bibeln, Exlibris, Genealogie, Ansichtskarten, Plakate, Wappen\" ;\n   <https://schema.ld.admin.ch/libraryMaterials> \"3,68 Millionen Einheiten, 9742 Zeitschriften, 341 Zeitungen, 1'000'000 Vereinspublikationen, 141'000 Amtsdruckschriften\" ;\n   <https://schema.ld.admin.ch/otherMaterials> \"436 Zeichnungen und Bilder (CDN), Hesse-Zimmer\" ;\n   <https://schema.ld.admin.ch/valid> \"aktiv\" ." .
-<https://schema.ld.admin.ch/Isil> <http://www.w3.org/2004/02/skos/core#note> "Le code 'International Standard Identifier for Libraries' (ISIL) est défini par la norme [ISO 15511](https://www.iso.org/standard/77849.html) et est [unique au niveau international](http://biblstandard.dk/isil/).\n\nCette classe définit la représentation de l'[ISIL suisse](https://www.nb.admin.ch/snl/fr/home/informations-professionnels/isil.html) sous contrôle de la Bibliothèque nationale suisse BN.\n\nCette classe étend [DefinedTerm](https://schema.org/DefinedTerm) de [schema.org](http://schema.org) par les informations supplémentaires disponibles sur l'[ISIL suisse](https://www.nb.admin.ch/snl/fr/home/informations-professionnels/isil.html).\n\nPour plus d'information sur le jeu de données: [https://culture.ld.admin.ch/.well-known/dataset/isil](https://culture.ld.admin.ch/.well-known/dataset/isil)"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/legalName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
-<https://schema.ld.admin.ch/legalName> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/legalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/legalName> <http://www.w3.org/2000/01/rdf-schema#comment> "Official name of the business" .
-<https://schema.ld.admin.ch/legalName> <http://www.w3.org/2000/01/rdf-schema#label> "legalName" .
-<https://schema.ld.admin.ch/legalName> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/legalName> .
-<https://schema.ld.admin.ch/LegislaturePeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/LegislaturePeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Term of office of the National Council." .
-<https://schema.ld.admin.ch/LegislaturePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "LegislaturePeriod" .
-<https://schema.ld.admin.ch/LegislaturePeriod> <http://www.w3.org/2004/02/skos/core#note> "Term of office of the National Council, which begins with the constituent sitting of the Council at the start of the winter session following the general election and lasts for four years.\n\nAs defined by [https://www.parlament.ch/en/%C3%BCber-das-parlament/parlamentsw%C3%B6rterbuch/parlamentsw%C3%B6rterbuch-detail?WordId=136](https://www.parlament.ch/en/%C3%BCber-das-parlament/parlamentsw%C3%B6rterbuch/parlamentsw%C3%B6rterbuch-detail?WordId=136)\n\nSee also: [https://www.termdat.bk.admin.ch/entry/57075](https://www.termdat.bk.admin.ch/entry/57075)"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/libraryMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "Fonds bibliothécaire" .
-<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "libraryMaterials" .
-<https://schema.ld.admin.ch/libraryMaterials> <http://www.w3.org/2004/02/skos/core#note> "'Fonds bibliothécaire' comprends une description textuelle des fonds de médias traditionnellement collectés par les bibliothèques, mesurés en unités.\n\n'Fonds bibliothécaire' complète la description des fonds."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "This class describes all mandatory and recommend properties for a dataset present on http://lindas.admin.ch." .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2000/01/rdf-schema#label> "LINDAS Dataset" .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdfs.org/ns/void#void:Dataset> .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Dataset> .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/dcat#Dataset> .
-<https://schema.ld.admin.ch/LindasDataset> <http://www.w3.org/2004/02/skos/core#note> "It is mandatory to use the equivalentClass and equivalentProperty of the described properties and not use the properties in the schema.ld.admin.ch namespace.\n\nSee for example [http://lod.opentransportdata.swiss/.well-known/dataset/didok](http://lod.opentransportdata.swiss/.well-known/dataset/didok)\n\nThe information instantiated with this class will be used for the [https://opendata.swiss/](https://opendata.swiss/) and [https://lindas.admin.ch/datasets](https://lindas.admin.ch/datasets)."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/linguisticContext> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
-<https://schema.ld.admin.ch/linguisticContext> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
-<https://schema.ld.admin.ch/linguisticContext> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
-<https://schema.ld.admin.ch/linguisticContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/linguisticContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Linguistic context in which a designation (term) or a specialised a specialised use (phraseology) can occur (DIN 2342:2011-08, 5.2)." .
-<https://schema.ld.admin.ch/linguisticContext> <http://www.w3.org/2000/01/rdf-schema#label> "Linguistic Context" .
-<https://schema.ld.admin.ch/longName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
-<https://schema.ld.admin.ch/longName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "District name or official municipality name." .
-<https://schema.ld.admin.ch/longName> <http://www.w3.org/2000/01/rdf-schema#label> "Long Name" .
-<https://schema.ld.admin.ch/longName> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nGemeinde\n--------\n\nAmtlicher Gemeindename Nach Artikel 19, Abs. 1 der Verordnung über die geografischen NamenVerordnung ist für die Schreibweise der Gemeindenamen (politische Gemeinden) im amtlichen Verkehr der Bundesverwaltung sowie in allen Veröffentlichungen des Bundes das amtliche Gemeindeverzeichnis der Schweiz verbindlich. Die Namen von politischen Gemeinden sind innerhalb der einzelnen Gemeindestände, ohne gemeindefreie Gebiete und ohne kantonale Seeanteile, eindeutig. Hinweis: Bei Einträgen, die sich nicht auf politische Gemeinde beziehen, ist der Name nicht «amtlich».\n\nBezirk\n------\n\nDer Bezirksname ist der vom Kanton verwendete Name des Bezirks. Wird der Bezirksname in zwei Sprachen verwendet, sind beide Namen enthalten. Dem Namen vorgestellt ist die jeweilige Bezeichnung im Kanton (Bezirk, Amt, Amtsbezirk oder Wahlkreis). Bemerkung: Bezirksfreie Gebiete sind pro Kanton entsprechend bezeichnet. Dasselbe gilt auch für Kantone ohne Bezirksunterteilung."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/municipality> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/ZefixOrganisation> .
-<https://schema.ld.admin.ch/municipality> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Municipality> .
-<https://schema.ld.admin.ch/municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/Municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/Municipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality in Switzerland as currently defined by SFO" .
-<https://schema.ld.admin.ch/municipality> <http://www.w3.org/2000/01/rdf-schema#comment> "assigns a municipality to the subject" .
-<https://schema.ld.admin.ch/municipality> <http://www.w3.org/2000/01/rdf-schema#label> "municipality" .
-<https://schema.ld.admin.ch/Municipality> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality" .
-<https://schema.ld.admin.ch/municipalityVersion> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/PoliticalMunicipality> .
-<https://schema.ld.admin.ch/municipalityVersion> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
-<https://schema.ld.admin.ch/municipalityVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/municipalityVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to the versioned municipality which holds the versioned identifier of a municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
-<https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "The versioned municipality which holds the versioned identifier of a municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
-<https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality Version" .
-<https://schema.ld.admin.ch/municipalityVersion> <http://www.w3.org/2000/01/rdf-schema#label> "municipalityVersion" .
-<https://schema.ld.admin.ch/MunicipalityVersion> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nDie Historisierungsnummer Gemeinde wird als nicht sprechender, übergeordneter Schlüssel in der Entität geführt. **Sie ermöglicht die Historisierung der Mutationsprozesse auf Gemeindeebene.**"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/name> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/Name> <http://www.w3.org/2000/01/rdf-schema#comment> "Linguistic designation of an individual term (DIN 2342:2011-08, 5.1.4)." .
-<https://schema.ld.admin.ch/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of subject." .
-<https://schema.ld.admin.ch/name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
-<https://schema.ld.admin.ch/Name> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
-<https://schema.ld.admin.ch/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/title> .
-<https://schema.ld.admin.ch/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/name> .
-<https://schema.ld.admin.ch/Name> <http://www.w3.org/2004/02/skos/core#note> "The name as a linguistic designation of an individual term is to be distinguished from the term as a linguistic designation of a general [term](https://schema.ld.admin.ch/Term)."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/observationDate> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/observationDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://schema.ld.admin.ch/observationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date à laquelle les différentes mesures ont été collectées. Inclus l'heure si souhaité." .
-<https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2000/01/rdf-schema#label> "observationDate" .
-<https://schema.ld.admin.ch/observationDate> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/cvdCollectionDate> .
-<https://schema.ld.admin.ch/oldReferenceCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/oldReferenceCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/oldReferenceCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Old reference code" .
-<https://schema.ld.admin.ch/oldReferenceCode> <http://www.w3.org/2000/01/rdf-schema#label> "oldReferenceCode" .
-<https://schema.ld.admin.ch/oldReferenceNumber> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/oldReferenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/oldReferenceNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Old reference number" .
-<https://schema.ld.admin.ch/oldReferenceNumber> <http://www.w3.org/2000/01/rdf-schema#label> "oldReferenceNumber" .
-<https://schema.ld.admin.ch/otherMaterials> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/otherMaterials> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "Autres fonds" .
-<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "otherMaterials" .
-<https://schema.ld.admin.ch/otherMaterials> <http://www.w3.org/2004/02/skos/core#note> "'Autres fonds' comprends une description textuelle des fonds de médias traditionnellement collectés par les bibliothèques, mesurés en unités."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de patient-e-s avec un diagnostic confirmé de COVID-19" .
-<https://schema.ld.admin.ch/pandConfirmedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandConfirmedPatsCumulated" .
-<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre estimé et cumulé de patients guéris" .
-<https://schema.ld.admin.ch/pandCuredPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandCuredPatsCumulated" .
-<https://schema.ld.admin.ch/pandDeceasedCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandDeceasedCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandDeceasedCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandDeceasedCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s décédé-e-s avec un diagnostic confirmé du virus" .
-<https://schema.ld.admin.ch/pandDeceasedCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandDeceasedCumulated" .
-<https://schema.ld.admin.ch/pandemicName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandemicName> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/pandemicName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandemicName> <http://www.w3.org/2000/01/rdf-schema#comment> "Nom officiel de la pandémie dont on recense les cas et l'évolution des patients" .
-<https://schema.ld.admin.ch/pandemicName> <http://www.w3.org/2000/01/rdf-schema#label> "pandemicName" .
-<https://schema.ld.admin.ch/pandemicName> <http://www.w3.org/2004/02/skos/core#note> "Actuellement seule la valeur COVID-19 est considérée"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/pandHospitalizedPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandHospitalizedPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandHospitalizedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandHospitalizedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s actuellement hospitalisé-e-s avec un diagnostic confirmé du virus" .
-<https://schema.ld.admin.ch/pandHospitalizedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandHospitalizedPats" .
-<https://schema.ld.admin.ch/pandIcuPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandIcuPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandIcuPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandIcuPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s actuellement traités dans les unités de soins intensifs (UCI en anglais) avec un diagnostic confirmé du virus" .
-<https://schema.ld.admin.ch/pandIcuPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandICUPats" .
-<https://schema.ld.admin.ch/pandNewConfirmedPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandNewConfirmedPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de nouveaux cas confirmés depuis le jour précédent" .
-<https://schema.ld.admin.ch/pandNewConfirmedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandNewConfirmedPats" .
-<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de patient-e-s décédé-e-s des suites d'une contamination par le virus" .
-<https://schema.ld.admin.ch/pandNewDeceasedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandNewDeceasedPats" .
-<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre cumulé de tests effectués du virus de cette pandémie" .
-<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandPerformedTestsCumulated" .
-<https://schema.ld.admin.ch/pandPerformedTestsCumulated> <http://www.w3.org/2004/02/skos/core#note> "Le nombre de tests inclut aussi bien ceux qui aboutissent à des résultats positifs qu'à des résultats négatifs"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s sorti-e-s d'un centre hospitalier ayant eu un diagnostic confirmé du virus" .
-<https://schema.ld.admin.ch/pandReleasedPatsCumulated> <http://www.w3.org/2000/01/rdf-schema#label> "pandReleasedPatsCumulated" .
-<https://schema.ld.admin.ch/pandVentilatedPats> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/pandVentilatedPats> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
-<https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de patient-e-s sous aide respiratoire avec un diagnostic confirmé du virus" .
-<https://schema.ld.admin.ch/pandVentilatedPats> <http://www.w3.org/2000/01/rdf-schema#label> "pandVentilatedPats" .
-<https://schema.ld.admin.ch/Phraseology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/Phraseology> <http://www.w3.org/2000/01/rdf-schema#comment> "Specialised usage (subject-specific phrase): Group of syntactically related words which has an overall technical meaning not consisting of the sum of the individual meanings of the words or which is regarded as formulaic or stereotypical (DIN 2342:2011-08, 5.1.6)." .
-<https://schema.ld.admin.ch/Phraseology> <http://www.w3.org/2000/01/rdf-schema#label> "Phraseology" .
-<https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#comment> "A municipality as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
-<https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2000/01/rdf-schema#label> "Political Municipality" .
-<https://schema.ld.admin.ch/PoliticalMunicipality> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\n*   Eine politische Gemeinde gehört zu einem oder zu keinem Bezirk.\n    \n*   Eine politische Gemeinde gehört immer zu einem Kanton."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/position> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/position> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#integer> .
-<https://schema.ld.admin.ch/position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/position> <http://www.w3.org/2000/01/rdf-schema#comment> "Position" .
-<https://schema.ld.admin.ch/position> <http://www.w3.org/2000/01/rdf-schema#label> "position" .
-<https://schema.ld.admin.ch/predecessor> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/predecessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/predecessor> <http://www.w3.org/2000/01/rdf-schema#comment> "predecessor" .
-<https://schema.ld.admin.ch/predecessor> <http://www.w3.org/2000/01/rdf-schema#label> "predecessor" .
-<https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Replicate the PropertyValue class of schema.org in order to give a flexible mechanism to manage multiple identifiers." .
-<https://schema.ld.admin.ch/PropertyValue> <http://www.w3.org/2000/01/rdf-schema#label> "PropertyValue" .
-<https://schema.ld.admin.ch/publisher> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "publisher" .
-<https://schema.ld.admin.ch/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "publisher" .
-<https://schema.ld.admin.ch/queryInterface> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2000/01/rdf-schema#comment> "The optional SPARQL query interface." .
-<https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Query Interface" .
-<https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<xsd:boolean> .
-<https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3.org/ns/dcat#accessURL> .
-<https://schema.ld.admin.ch/queryInterface> <http://www.w3.org/2004/02/skos/core#note> "This property specifies if available the location of a query interface adapted to the dataset."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Record resources held by the Swiss federal archive" .
-<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2000/01/rdf-schema#label> "RecordResource" .
-<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2002/07/owl#equivalentClass> <https://www.ica.org/standards/RiC/ontology#RecordResource> .
-<https://schema.ld.admin.ch/RecordResource> <http://www.w3.org/2004/02/skos/core#example> "PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>\nPREFIX : <https://schema.ld.admin.ch/office/bar/>\n\n<http://culture.ld.admin.ch/ais/1> a :RecordResource, rico:RecordSet ;\n    rico:title \"Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" ;\n    rico:hasOrHadHolder <https://culture.ld.admin.ch/isil/CH-000018-2> ;\n    :referenceCode \"CH-BAR#Unterlagen*\" ;\n    :position 100 .\n" .
-<https://schema.ld.admin.ch/referenceCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/referenceCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/referenceCode> <http://www.w3.org/2000/01/rdf-schema#comment> "record resource identifier" .
-<https://schema.ld.admin.ch/referenceCode> <http://www.w3.org/2000/01/rdf-schema#label> "referenceCode" .
-<https://schema.ld.admin.ch/referenceNumber> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "record resource classification" .
-<https://schema.ld.admin.ch/referenceNumber> <http://www.w3.org/2000/01/rdf-schema#label> "referenceNumber" .
-<https://schema.ld.admin.ch/reliabilityCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
-<https://schema.ld.admin.ch/reliabilityCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
-<https://schema.ld.admin.ch/reliabilityCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
-<https://schema.ld.admin.ch/reliabilityCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/reliabilityCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the quality (terminological reliability and processing status) of the entire entry." .
-<https://schema.ld.admin.ch/reliabilityCode> <http://www.w3.org/2000/01/rdf-schema#label> "Reliability code" .
-<https://schema.ld.admin.ch/replacer> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/replacer> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/replacer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#comment> "Le code ISIL qui remplace le code ISIL de l'organisation actuelle." .
-<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2000/01/rdf-schema#label> "replacer" .
-<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/replacer> .
-<https://schema.ld.admin.ch/replacer> <http://www.w3.org/2004/02/skos/core#note> "Le code ISIL qui remplace le code ISIL de l'organisation actuelle.\n\nL'organisation actuelle est donc inactive et dissoute. Tout ou partie de ses fonds ont été transférés au successeur."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/Session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/Session> <http://www.w3.org/2000/01/rdf-schema#comment> "The period of time in which Parliament meets is called a session." .
-<https://schema.ld.admin.ch/Session> <http://www.w3.org/2000/01/rdf-schema#label> "Session" .
-<https://schema.ld.admin.ch/Session> <http://www.w3.org/2004/02/skos/core#note> "See also [https://www.parlament.ch/en/ratsbetrieb/sessions](https://www.parlament.ch/en/ratsbetrieb/sessions)"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "A DefinedTermSet which will be presented as a target for values in the Cube Creator." .
-<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2000/01/rdf-schema#label> "SharedDimension" .
-<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/DefinedTermSet> .
-<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2002/07/owl#equivalentClass> <https://cube.link/meta/SharedDimension> .
-<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2004/02/skos/core#example> "@prefix schema: <http://schema.org/> .\n@prefix meta: <https://cube.link/meta/> .\n\n<https://ld.admin.ch/cube/dimension/Canton> a schema:DefinedTermSet, meta:SharedDimension.\n<https://ld.admin.ch/cube/dimension/Canton> schema:name \"Kantone\"@de.\n<https://ld.admin.ch/cube/dimension/Canton> schema:hasDefinedTerm <https://ld.admin.ch/cube/dimension/Canton/be>." .
-<https://schema.ld.admin.ch/SharedDimension> <http://www.w3.org/2004/02/skos/core#note> "The instance needs to be decorated with `schema:DefinedTerm` and `https://cube.link/meta/SharedDimension` to be recognized by the Cube-Creator ([https://cube-creator.lindas.admin.ch/](https://cube-creator.lindas.admin.ch/)).\n\nSharedDimension have the important property of being monotonic. It is not allowed to remove a once published shared Dimension or entries thereof. Only a \"deprecation\" by using `schema:validThrough` is allowed either on the whole Dimension or the `schema:DefinedTerm` entry respectively."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/sharedDimensionhasDefinedTerm> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/SharedDimension> .
-<https://schema.ld.admin.ch/sharedDimensionhasDefinedTerm> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> .
-<https://schema.ld.admin.ch/sharedDimensionhasDefinedTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/sharedDimensionhasDefinedTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "All the entries belonging to a shared Dimension." .
-<https://schema.ld.admin.ch/sharedDimensionhasDefinedTerm> <http://www.w3.org/2000/01/rdf-schema#label> "sharedDimensionhasDefinedTerm" .
-<https://schema.ld.admin.ch/sharedDimensionhasDefinedTerm> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/hasDefinedTerm> .
-<https://schema.ld.admin.ch/sharedDimensionhasDefinedTerm> <http://www.w3.org/2004/02/skos/core#note> "Pointing to entries of the Class `schema:DefinedTerm` where it is expected a `schema:name` to be present. To deprecated a specific term `schema:validThrough` is added with the date of the deprecation."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/sharedDimensionName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/SharedDimension> .
-<https://schema.ld.admin.ch/sharedDimensionName> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/sharedDimensionName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/sharedDimensionName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the shared dimension." .
-<https://schema.ld.admin.ch/sharedDimensionName> <http://www.w3.org/2000/01/rdf-schema#label> "sharedDimensionName" .
-<https://schema.ld.admin.ch/sharedDimensionName> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/name> .
-<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/SharedDimension> .
-<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "To define the deprecation of a Dimension." .
-<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://www.w3.org/2000/01/rdf-schema#label> "sharedDimensionValidThrough" .
-<https://schema.ld.admin.ch/sharedDimensionValidThrough> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://schema.org/validThrough> .
-<https://schema.ld.admin.ch/shortName> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/MunicipalityVersion> .
-<https://schema.ld.admin.ch/shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "Short district/municipality name as defined by the \"Historisiertes Gemeindeverzeichnis der Schweiz\n\"." .
-<https://schema.ld.admin.ch/shortName> <http://www.w3.org/2000/01/rdf-schema#label> "Short Name" .
-<https://schema.ld.admin.ch/shortName> <http://www.w3.org/2004/02/skos/core#note> "Aus [Historisiertes Gemeindeverzeichnis der Schweiz, Erläuterungen und Anwendungen](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.gnpdetail.2017-0653.html):\n\nGemeinde\n--------\n\nIm Feld Gemeindename kurz werden diejenigen Gemeindenamen abgekürzt geführt, die aus mehr als 24 Zeichen bestehen. Der abgekürzte Name ist nicht amtlich, er kann aber z.B. für die Anzeige am Bildschirm innerhalb von Applikationen praktisch sein, um die nötige Feldlänge einschränken zu können.\n\nBezirk\n------\n\nDer Bezirksname ist der vom Kanton verwendete Name der Bezirke, ohne die vorgestellte Bezeichnung Bezirk, Amt, Amtsbezirk oder Wahlkreis. Wird der Bezirksname in zwei Sprachen verwendet, sind beide Namen enthalten. Bemerkung: Bezirksfreie Gebiete sind pro Kanton entsprechend bezeichnet"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The SPARQL Endpoint where the dataset is available." .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2000/01/rdf-schema#label> "sparql Endpoint" .
-<https://schema.ld.admin.ch/sparqlEndpoint> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://rdfs.org/ns/void#sparqlEndpoint> .
-<https://schema.ld.admin.ch/successor> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/successor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/successor> <http://www.w3.org/2000/01/rdf-schema#comment> "successor" .
-<https://schema.ld.admin.ch/successor> <http://www.w3.org/2000/01/rdf-schema#label> "successor" .
-<https://schema.ld.admin.ch/Term> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/Term> <http://www.w3.org/2000/01/rdf-schema#comment> "Linguistic designation of a general term from a specialised field or in technical language. " .
-<https://schema.ld.admin.ch/Term> <http://www.w3.org/2000/01/rdf-schema#label> "Term" .
-<https://schema.ld.admin.ch/Term> <http://www.w3.org/2004/02/skos/core#note> "These include single-word terms, i.e. technical terms consisting of a single word, and multi-word terms consisting of at least two words separated by spaces (DIN 2342:2011-08, 5.1.3, 5.1.3.1 and 5.1.3.2). Single-word terms also include derived and compound terms, including hyphenated terms. The terms do not include names and technical terms or phraseological elements (see [Name](https://schema.ld.admin.ch/Name) and [Phraseology](https://schema.ld.admin.ch/Phraseology))."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/termCode> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/termCode> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
-<https://schema.ld.admin.ch/termCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#comment> " Le code ISIL (International Standard Identifier for Libraries and Related Organizations )." .
-<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2000/01/rdf-schema#label> "termCode" .
-<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/termCode> .
-<https://schema.ld.admin.ch/termCode> <http://www.w3.org/2004/02/skos/core#note> "International Standard Identifier for Libraries and Related Organizations (ISIL).\n\nUn identifiant unique pour les bibliothèques et assimilés ou les unités organisationnelles subordonnées, émis par la Bibliothèque nationale suisse par sa fonction d'agence ISIL.\n\nLa chaîne est assortie de l'expression régulière suivantet: '\\[(CH|LI)\\]{2}-\\[0-9\\]{6}-\\[0-9X\\]{1}'"^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
-<https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
-<https://schema.ld.admin.ch/termDomain> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
-<https://schema.ld.admin.ch/termDomain> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/TermDomain> .
-<https://schema.ld.admin.ch/termDomain> <http://schema.org/rangeIncludes> <https://schema.ld.admin.ch/TermSubDomain> .
-<https://schema.ld.admin.ch/termDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/TermDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/TermDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A terminological domain." .
-<https://schema.ld.admin.ch/termDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication of one or more domains to which the term term belongs." .
-<https://schema.ld.admin.ch/TermDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Term Domain" .
-<https://schema.ld.admin.ch/termDomain> <http://www.w3.org/2000/01/rdf-schema#label> "termDomain" .
-<https://schema.ld.admin.ch/TerminologyCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/TerminologyCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication of the terminology collection to which the relevant entry belongs to. On the one hand, these are thematic collections relating to a subject area, which are systematically compiled as part of a terminology project." .
-<https://schema.ld.admin.ch/TerminologyCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology collection" .
-<https://schema.ld.admin.ch/TerminologyOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/TerminologyOffice> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication of the terminology office responsible for the entry or terminology collection.\n" .
-<https://schema.ld.admin.ch/TerminologyOffice> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology office" .
-<https://schema.ld.admin.ch/termNote> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Name> .
-<https://schema.ld.admin.ch/termNote> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Phraseology> .
-<https://schema.ld.admin.ch/termNote> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Term> .
-<https://schema.ld.admin.ch/termNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/termNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Information on the term, designation (use) or language." .
-<https://schema.ld.admin.ch/termNote> <http://www.w3.org/2000/01/rdf-schema#label> "Term Note" .
-<https://schema.ld.admin.ch/termNote> <http://www.w3.org/2004/02/skos/core#note> "In contrast to a definition, a conceptual note does not contain the essential characteristics, but rather supplementary characteristics of the term under discussion."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/TermSubDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/TermSubDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A terminological sub-domain." .
-<https://schema.ld.admin.ch/TermSubDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Term Sub-Domain" .
-<https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe structurant les différentes données récoltées durant une pandémie" .
-<https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2000/01/rdf-schema#label> "TESTPandemicObservation" .
-<https://schema.ld.admin.ch/TestPandemicObservation> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/CDCPMDRecord> .
-<https://schema.ld.admin.ch/thema> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/thema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/thema> <http://www.w3.org/2000/01/rdf-schema#comment> "thema" .
-<https://schema.ld.admin.ch/thema> <http://www.w3.org/2000/01/rdf-schema#label> "thema" .
-<https://schema.ld.admin.ch/valid> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/valid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/valid> <http://www.w3.org/2000/01/rdf-schema#comment> "État de validité du code ISIL" .
-<https://schema.ld.admin.ch/valid> <http://www.w3.org/2000/01/rdf-schema#label> "valid" .
-<https://schema.ld.admin.ch/valid> <http://www.w3.org/2004/02/skos/core#note> "État de validité du code ISIL et état d'activité de l'organisation."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/ValidatedEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/ValidatedEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "This status is assigned to entries that have been linguistically and formally checked and often approved by experts." .
-<https://schema.ld.admin.ch/ValidatedEntry> <http://www.w3.org/2000/01/rdf-schema#label> "Validated Entry" .
-<https://schema.ld.admin.ch/validFrom> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/validFrom> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.ld.admin.ch/validFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/validFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "Début de la validité du code ISIL" .
-<https://schema.ld.admin.ch/validFrom> <http://www.w3.org/2000/01/rdf-schema#label> "validFrom" .
-<https://schema.ld.admin.ch/validFrom> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/validFrom> .
-<https://schema.ld.admin.ch/validFrom> <http://www.w3.org/2004/02/skos/core#note> "Début de la validité du code ISIL et fondation de'lorganisation."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/validThrough> <http://schema.org/domainIncludes> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/validThrough> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.ld.admin.ch/validThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "Fin de la validité du code ISIL." .
-<https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2000/01/rdf-schema#label> "validThrough" .
-<https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/validThrough> .
-<https://schema.ld.admin.ch/validThrough> <http://www.w3.org/2004/02/skos/core#note> "Fin de la validité du code ISIL et date de dissolution de'lorganisation.\n\nLa date est définie selon la norme ISO 8601 dans la granularité 'année'."^^<http://media-type.described.at/text/markdown> .
-<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/2000/01/rdf-schema#comment> "A business entity active in Switzerland corresponding to one entry of the Zefix Database" .
-<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "ZefixOrganisation" .
-<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/2002/07/owl#equivalentClass> <https://schema.org/Organisation> .
-<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/2004/02/skos/core#example> "<https://register.ld.admin.ch/zefix/company/737612> a <http://schema.org/Organization> , <http://schema.org/DefinedTerm> , <https://schema.ld.admin.ch/ZefixOrganisation> ;\n   <http://schema.org/description> \"Economiesuisse vertritt und fÃ¶rdert die Interessen seiner Mitglieder gegenÃ¼ber Politik, BehÃ¶rden und Ã–ffentlichkeit in allen Bereichen der Wirtschaftspolitik.\" ;\n   <http://schema.org/identifier> <https://register.ld.admin.ch/zefix/company/737612/UID/CHE105833663> , <https://register.ld.admin.ch/zefix/company/737612/CHID/CH02060008207> , <https://register.ld.admin.ch/zefix/company/737612/EHRAID> ;\n   <http://schema.org/address> <https://register.ld.admin.ch/zefix/company/737612/address> ;\n   <http://schema.org/inDefinedTermSet> <https://ld.admin.ch/dimension/zefix> ;\n   <http://schema.org/additionalType> <https://ld.admin.ch/ech/97/legalforms/0109> ;\n   <http://schema.org/legalName> \"economiesuisse\" ;\n   <http://www.w3.org/ns/locn#address> <https://register.ld.admin.ch/zefix/company/737612/address> ;\n   <https://schema.ld.admin.ch/municipality> <https://ld.admin.ch/municipality/261> ." .
-<https://schema.ld.admin.ch/ZefixOrganisation> <http://www.w3.org/2004/02/skos/core#note> "All business entities published in [https://www.zefix.admin.ch/](https://www.zefix.admin.ch/) are available as a set of RDF triples in LINDAS with this class and the associated properties."^^<http://media-type.described.at/text/markdown> .
+<http://editor.zazuko.com/schema/test> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/ShippersInstruction> .
+<http://editor.zazuko.com/schema/test> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<http://editor.zazuko.com/schema/test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/test> <http://www.w3.org/2000/01/rdf-schema#comment> "test" .
+<http://editor.zazuko.com/schema/test> <http://www.w3.org/2000/01/rdf-schema#label> "test" .
+<http://editor.zazuko.com/schema/test> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://editor.zazuko.com/schema/test> .
+<http://schema.org/geo> <http://schema.org/domainIncludes> <https://editor.zazuko.com/domain/TrackUpdate> .
+<https://editor.zazuko.com/schema/10Krun> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/BowelCancer> .
+<https://editor.zazuko.com/schema/10Krun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/10Krun> <http://www.w3.org/2000/01/rdf-schema#comment> "10krun" .
+<https://editor.zazuko.com/schema/10Krun> <http://www.w3.org/2000/01/rdf-schema#label> "10krun" .
+<https://editor.zazuko.com/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/accelerometer> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/accelerometer> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/Accelerometer> .
+<https://editor.zazuko.com/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Accelerometer> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of accelerometer." .
+<https://editor.zazuko.com/schema/accelerometer> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer reading submitted as a track update." .
+<https://editor.zazuko.com/schema/accelerometer> <http://www.w3.org/2000/01/rdf-schema#label> "Accelerometer" .
+<https://editor.zazuko.com/schema/Accelerometer> <http://www.w3.org/2000/01/rdf-schema#label> "Accelerometer" .
+<https://editor.zazuko.com/schema/airport> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/airport> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/airport> <http://www.w3.org/2000/01/rdf-schema#description> "Airport  IATA 3-letter Code ." .
+<https://editor.zazuko.com/schema/airport> <http://www.w3.org/2000/01/rdf-schema#label> "Airport" .
+<https://editor.zazuko.com/schema/AirStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/AirStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of air." .
+<https://editor.zazuko.com/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#description> "A status update on a logistics object in the transport mode of air." .
+<https://editor.zazuko.com/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Air Status Update" .
+<https://editor.zazuko.com/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/arrivalTimestamp> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/arrivalTimestamp> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/arrivalTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/arrivalTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A timestamp for the arrival of the airwaybill ." .
+<https://editor.zazuko.com/schema/arrivalTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Arrival Timestamp" .
+<https://editor.zazuko.com/schema/ata-Location> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/SeaStatusUpdate> .
+<https://editor.zazuko.com/schema/ata-Location> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/ata-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/ata-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel arrives at a specified location, as per port section standards." .
+<https://editor.zazuko.com/schema/ata-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ATA-Location" .
+<https://editor.zazuko.com/schema/atd-Location> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/SeaStatusUpdate> .
+<https://editor.zazuko.com/schema/atd-Location> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/atd-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/atd-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel departs from a specified location, as per port section standards." .
+<https://editor.zazuko.com/schema/atd-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ATD-Location" .
+<https://editor.zazuko.com/schema/attentionTo> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/attentionTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/awbManifestedPieces> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/awbManifestedPieces> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://editor.zazuko.com/schema/awbManifestedPieces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/awbManifestedPieces> <http://www.w3.org/2000/01/rdf-schema#description> "The number of pieces manifested on the AWB ." .
+<https://editor.zazuko.com/schema/awbManifestedPieces> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Manifested Pieces" .
+<https://editor.zazuko.com/schema/awbManifestedWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/awbManifestedWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/awbManifestedWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/awbManifestedWeight> <http://www.w3.org/2000/01/rdf-schema#description> "The weight of pieces manifested on the AWB ." .
+<https://editor.zazuko.com/schema/awbManifestedWeight> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Manifested Weight" .
+<https://editor.zazuko.com/schema/awbTotalPieces> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/awbTotalPieces> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/EmptyGood> .
+<https://editor.zazuko.com/schema/awbTotalPieces> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://editor.zazuko.com/schema/awbTotalPieces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#description> "The total number of pieces on the AWB ." .
+<https://editor.zazuko.com/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Total Pieces" .
+<https://editor.zazuko.com/schema/awbTotalWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/awbTotalWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/awbTotalWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/awbTotalWeight> <http://www.w3.org/2000/01/rdf-schema#description> "The total weight of pieces on the AWB ." .
+<https://editor.zazuko.com/schema/awbTotalWeight> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Total Weight" .
+<https://editor.zazuko.com/schema/awbTotalWeightUom> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/awbTotalWeightUom> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/awbTotalWeightUom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/awbTotalWeightUom> <http://www.w3.org/2000/01/rdf-schema#description> "The unit of measure for the total weight of pieces on the AWB ." .
+<https://editor.zazuko.com/schema/awbTotalWeightUom> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Total Weight UoM" .
+<https://editor.zazuko.com/schema/Battery> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/battery> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/battery> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/Battery> .
+<https://editor.zazuko.com/schema/battery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Battery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Battery> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of battery status." .
+<https://editor.zazuko.com/schema/battery> <http://www.w3.org/2000/01/rdf-schema#description> "A device battery reading submitted as a track update." .
+<https://editor.zazuko.com/schema/battery> <http://www.w3.org/2000/01/rdf-schema#label> "Battery" .
+<https://editor.zazuko.com/schema/Battery> <http://www.w3.org/2000/01/rdf-schema#label> "Battery" .
+<https://editor.zazuko.com/schema/batteryPercentage> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Battery> .
+<https://editor.zazuko.com/schema/batteryPercentage> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/batteryPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/batteryPercentage> <http://www.w3.org/2000/01/rdf-schema#description> "A device battery reading in Percentage submitted as a track update." .
+<https://editor.zazuko.com/schema/batteryPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Battery Percentage" .
+<https://editor.zazuko.com/schema/batteryVoltage> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Battery> .
+<https://editor.zazuko.com/schema/batteryVoltage> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/batteryVoltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#description> "A device battery reading in Voltage submitted as a track update." .
+<https://editor.zazuko.com/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "Battery Voltage" .
+<https://editor.zazuko.com/schema/BowelCancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/BowelCancer> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition of bowel cancer" .
+<https://editor.zazuko.com/schema/BowelCancer> <http://www.w3.org/2000/01/rdf-schema#label> "BowelCancer" .
+<https://editor.zazuko.com/schema/buyer> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/buyer> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#description> "The buyer party for this consignment." .
+<https://editor.zazuko.com/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#label> "Buyer" .
+<https://editor.zazuko.com/schema/cargoType> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Port> .
+<https://editor.zazuko.com/schema/cargoType> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://editor.zazuko.com/schema/cargoType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#comment> "two" .
+<https://editor.zazuko.com/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#description> "Types of cargo handled by the port." .
+<https://editor.zazuko.com/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Type" .
+<https://editor.zazuko.com/schema/cargoVolume> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Port> .
+<https://editor.zazuko.com/schema/cargoVolume> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/Port> .
+<https://editor.zazuko.com/schema/cargoVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#description> "Weight of Goods or number of containers per calendar year in tonnes." .
+<https://editor.zazuko.com/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Weight" .
+<https://editor.zazuko.com/schema/CommercialInvoice> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/CommercialInvoice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/CommercialInvoice> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from wikipedia.org - When used in foreign trade, a commercial invoice is a customs document. It is used as a customs declaration provided by the person or corporation that is exporting an item across international borders." .
+<https://editor.zazuko.com/schema/CommercialInvoice> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Invoice" .
+<https://editor.zazuko.com/schema/CommercialInvoice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/consignee> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/consignee> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/consignee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#comment> "I'm changing a property" .
+<https://editor.zazuko.com/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#description> "The consignee party for this consignment." .
+<https://editor.zazuko.com/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#label> "Consignee" .
+<https://editor.zazuko.com/schema/Consignment> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/consignment> <http://purl.org/dc/terms/modified> "2018-06-06T21:03:26.478Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/consignment> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/ShippersInstruction> .
+<https://editor.zazuko.com/schema/consignment> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<https://editor.zazuko.com/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#description> "A consignment has one pick up address, one delivery address and contain multiple packages." .
+<https://editor.zazuko.com/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#description> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<https://editor.zazuko.com/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#label> "consignment" .
+<https://editor.zazuko.com/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment" .
+<https://editor.zazuko.com/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/consignor> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/consignor> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/consignor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#description> "The consignor party for this consignment." .
+<https://editor.zazuko.com/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#label> "Consignor" .
+<https://editor.zazuko.com/schema/Container> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Container> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the container on a truck" .
+<https://editor.zazuko.com/schema/Container> <http://www.w3.org/2000/01/rdf-schema#label> "Container" .
+<https://editor.zazuko.com/schema/containerLength> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Container> .
+<https://editor.zazuko.com/schema/containerLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/containerLength> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the length of the container" .
+<https://editor.zazuko.com/schema/containerLength> <http://www.w3.org/2000/01/rdf-schema#label> "containerLength" .
+<https://editor.zazuko.com/schema/DangerousGoodsDeclaration> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
+<https://editor.zazuko.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#label> "Dangerous Goods Declaration" .
+<https://editor.zazuko.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/deliveredTimestamp> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/deliveredTimestamp> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/deliveredTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/deliveredTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the delivery of the airwaybill ." .
+<https://editor.zazuko.com/schema/deliveredTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Delivered Timestamp" .
+<https://editor.zazuko.com/schema/deliverTo> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/deliverTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/departureTimestamp> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/departureTimestamp> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/departureTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/departureTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "The departure time stamp of the airwaybill ." .
+<https://editor.zazuko.com/schema/departureTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Departure Timestamp" .
+<https://editor.zazuko.com/schema/destination> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/destination> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/destination> <http://www.w3.org/2000/01/rdf-schema#description> "An abbreviation for the destination of the airwaybill ." .
+<https://editor.zazuko.com/schema/destination> <http://www.w3.org/2000/01/rdf-schema#label> "Destination" .
+<https://editor.zazuko.com/schema/deviceIdentifier> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/deviceIdentifier> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/deviceIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/deviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#description> "An identifier for the device submitting the track update." .
+<https://editor.zazuko.com/schema/deviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Device Identifier" .
+<https://editor.zazuko.com/schema/deviceName> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/deviceName> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/deviceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/deviceName> <http://www.w3.org/2000/01/rdf-schema#description> "A name for the device submitting the track update." .
+<https://editor.zazuko.com/schema/deviceName> <http://www.w3.org/2000/01/rdf-schema#label> "Device Name" .
+<https://editor.zazuko.com/schema/discrepancyDescription> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/discrepancyDescription> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/discrepancyDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/discrepancyDescription> <http://www.w3.org/2000/01/rdf-schema#description> "This is the discrepancy description." .
+<https://editor.zazuko.com/schema/discrepancyDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Discrepancy Description" .
+<https://editor.zazuko.com/schema/Draft> <http://www.w3.org/2000/01/rdf-schema#label> "Draft" .
+<https://editor.zazuko.com/schema/EmptyGood> <http://purl.org/dc/terms/modified> "2018-06-06T20:58:07.672Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/EmptyGood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/EmptyGood> <http://www.w3.org/2000/01/rdf-schema#description> "This is an empty good." .
+<https://editor.zazuko.com/schema/EmptyGood> <http://www.w3.org/2000/01/rdf-schema#label> "Empty Good" .
+<https://editor.zazuko.com/schema/engine> <http://purl.org/dc/terms/modified> "2018-07-08T19:46:57.279Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/engine> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailroadEngine> .
+<https://editor.zazuko.com/schema/engine> <http://www.w3.org/2000/01/rdf-schema#comment> "Diesel, electric, steam" .
+<https://editor.zazuko.com/schema/engine> <http://www.w3.org/2000/01/rdf-schema#description> "Engine type." .
+<https://editor.zazuko.com/schema/engine> <http://www.w3.org/2000/01/rdf-schema#label> "engine" .
+<https://editor.zazuko.com/schema/eta-Location> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/SeaStatusUpdate> .
+<https://editor.zazuko.com/schema/eta-Location> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/eta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel estimates it will arrive at a specified location, as per port section standards." .
+<https://editor.zazuko.com/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ETA-Location" .
+<https://editor.zazuko.com/schema/etd-Location> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/SeaStatusUpdate> .
+<https://editor.zazuko.com/schema/etd-Location> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/etd-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/etd-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel estimates it will depart from a specified location, as per port section standards." .
+<https://editor.zazuko.com/schema/etd-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ETD-Location" .
+<https://editor.zazuko.com/schema/fdfds> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailroadEngine> .
+<https://editor.zazuko.com/schema/fdfds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/fdfds> <http://www.w3.org/2000/01/rdf-schema#comment> "sdf" .
+<https://editor.zazuko.com/schema/fdfds> <http://www.w3.org/2000/01/rdf-schema#label> "fdfds" .
+<https://editor.zazuko.com/schema/FlightManifest> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/FlightManifest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
+<https://editor.zazuko.com/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#label> "Flight Manifest" .
+<https://editor.zazuko.com/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/footCandles> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Light> .
+<https://editor.zazuko.com/schema/footCandles> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#float> .
+<https://editor.zazuko.com/schema/footCandles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/footCandles> <http://www.w3.org/2000/01/rdf-schema#description> "A footcandle reading in submitted as a track update." .
+<https://editor.zazuko.com/schema/footCandles> <http://www.w3.org/2000/01/rdf-schema#label> "Footcandles" .
+<https://editor.zazuko.com/schema/forwarder> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/ShippersInstruction> .
+<https://editor.zazuko.com/schema/forwarder> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/forwarder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Forwarder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Forwarder> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents companies or individuals responsible for the transportation of goods on behalf of a shipper." .
+<https://editor.zazuko.com/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#description> "The party undertaking the freight forwarding of these consignments." .
+<https://editor.zazuko.com/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "forwarder" .
+<https://editor.zazuko.com/schema/Forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder" .
+<https://editor.zazuko.com/schema/grossWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/schema/grossWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailroadWaggon> .
+<https://editor.zazuko.com/schema/grossWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/ShippersInstruction> .
+<https://editor.zazuko.com/schema/grossWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<https://editor.zazuko.com/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
+<https://editor.zazuko.com/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
+<https://editor.zazuko.com/schema/handlesShipment> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Forwarder> .
+<https://editor.zazuko.com/schema/handlesShipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/handlesShipment> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to the shipments they're responsible for." .
+<https://editor.zazuko.com/schema/handlesShipment> <http://www.w3.org/2000/01/rdf-schema#label> "handlesShipment" .
+<https://editor.zazuko.com/schema/handoverTo> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/handoverTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/HAWB> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/HAWB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/HAWB> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
+<https://editor.zazuko.com/schema/HAWB> <http://www.w3.org/2000/01/rdf-schema#label> "House AirWayBill" .
+<https://editor.zazuko.com/schema/HAWB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/height> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/schema/height> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<https://editor.zazuko.com/schema/height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/height> <http://www.w3.org/2000/01/rdf-schema#comment> "How high is the sky" .
+<https://editor.zazuko.com/schema/height> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the height of this trade line item." .
+<https://editor.zazuko.com/schema/height> <http://www.w3.org/2000/01/rdf-schema#label> "Height" .
+<https://editor.zazuko.com/schema/height> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://editor.zazuko.com/schema/volume> .
+<https://editor.zazuko.com/schema/Humidity> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/humidity> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/humidity> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of humidity." .
+<https://editor.zazuko.com/schema/humidity> <http://www.w3.org/2000/01/rdf-schema#description> "A device humidity reading submitted as a track update." .
+<https://editor.zazuko.com/schema/humidity> <http://www.w3.org/2000/01/rdf-schema#label> "Humidity" .
+<https://editor.zazuko.com/schema/humidityPercent> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Humidity> .
+<https://editor.zazuko.com/schema/humidityPercent> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/humidityPercent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/humidityPercent> <http://www.w3.org/2000/01/rdf-schema#description> "A device humidity reading in percentage submitted as a track update." .
+<https://editor.zazuko.com/schema/humidityPercent> <http://www.w3.org/2000/01/rdf-schema#label> "Humidity in Percentage" .
+<https://editor.zazuko.com/schema/imoNumber> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Vessel> .
+<https://editor.zazuko.com/schema/imoNumber> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://editor.zazuko.com/schema/imoNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#description> "A number assigned to sea-going merchant vessels under the International Convention for the Safety of Life at Sea (SOLAS). These are assigned by IHS Fairplay to individual vessels. Format: The characters “IMO” followed by a unique seven-digit number, e.g. “IMO 9227338”." .
+<https://editor.zazuko.com/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#label> "IMO Number" .
+<https://editor.zazuko.com/schema/incoterm> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/incoterm> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://editor.zazuko.com/schema/incoterm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#description> "A code specifying a type of delivery for these delivery terms such as the INCOTERMS Terms of Delivery." .
+<https://editor.zazuko.com/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#label> "Incoterm" .
+<https://editor.zazuko.com/schema/incotermsLocation> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/incotermsLocation> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://editor.zazuko.com/schema/incotermsLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#description> "A location relevant for these delivery terms." .
+<https://editor.zazuko.com/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#label> "IncotermsLocation" .
+<https://editor.zazuko.com/schema/infrared> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Light> .
+<https://editor.zazuko.com/schema/infrared> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#float> .
+<https://editor.zazuko.com/schema/infrared> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/infrared> <http://www.w3.org/2000/01/rdf-schema#description> "A device infrared reading submitted as a track update." .
+<https://editor.zazuko.com/schema/infrared> <http://www.w3.org/2000/01/rdf-schema#label> "Infrared Light" .
+<https://editor.zazuko.com/schema/IOLIdentifier> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/iolIdentifier> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/IOLIdentifier> .
+<https://editor.zazuko.com/schema/iolIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/IOLIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The Internet of Logistics Identifier for a connected company." .
+<https://editor.zazuko.com/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "IOL Identifier" .
+<https://editor.zazuko.com/schema/latitude> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailPort> .
+<https://editor.zazuko.com/schema/latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/latitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The latitude of the object" .
+<https://editor.zazuko.com/schema/latitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude" .
+<https://editor.zazuko.com/schema/length> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/schema/length> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Truck> .
+<https://editor.zazuko.com/schema/length> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<https://editor.zazuko.com/schema/length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/length> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the length of this trade line item." .
+<https://editor.zazuko.com/schema/length> <http://www.w3.org/2000/01/rdf-schema#label> "Length" .
+<https://editor.zazuko.com/schema/Light> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/light> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/light> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/Light> .
+<https://editor.zazuko.com/schema/light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Light> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of light status." .
+<https://editor.zazuko.com/schema/light> <http://www.w3.org/2000/01/rdf-schema#description> "A device light reading submitted as a track update." .
+<https://editor.zazuko.com/schema/light> <http://www.w3.org/2000/01/rdf-schema#label> "Light" .
+<https://editor.zazuko.com/schema/Light> <http://www.w3.org/2000/01/rdf-schema#label> "Light" .
+<https://editor.zazuko.com/schema/logisticObjectReference> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/logisticObjectReference> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/logisticObjectReference> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://editor.zazuko.com/schema/logisticObjectReference> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<https://editor.zazuko.com/schema/logisticObjectReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/logisticObjectReference> <http://www.w3.org/2000/01/rdf-schema#description> "A URI reference to the Logistics Object." .
+<https://editor.zazuko.com/schema/logisticObjectReference> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Object Reference" .
+<https://editor.zazuko.com/schema/LogisticsObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/LogisticsObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Hasse changed again, Need a good definition. Here is a place holder - A general classifcation of all objects that are used in the logistics process.  A logistics object might be a plane, a truck. It might also be a document, or a package or a consignment." .
+<https://editor.zazuko.com/schema/LogisticsObject> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Object" .
+<https://editor.zazuko.com/schema/LogisticsVehicle> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/LogisticsVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a logistics vehicle. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
+<https://editor.zazuko.com/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Vehicle" .
+<https://editor.zazuko.com/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/longitude> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailPort> .
+<https://editor.zazuko.com/schema/longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/longitude> <http://www.w3.org/2000/01/rdf-schema#comment> "Longitude" .
+<https://editor.zazuko.com/schema/longitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude" .
+<https://editor.zazuko.com/schema/lux> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Light> .
+<https://editor.zazuko.com/schema/lux> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#float> .
+<https://editor.zazuko.com/schema/lux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/lux> <http://www.w3.org/2000/01/rdf-schema#description> "A device light reading in lux submitted as a track update." .
+<https://editor.zazuko.com/schema/lux> <http://www.w3.org/2000/01/rdf-schema#label> "Light measured in Lux" .
+<https://editor.zazuko.com/schema/MAWB> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/MAWB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
+<https://editor.zazuko.com/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#label> "Master AirWayBill" .
+<https://editor.zazuko.com/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/netWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Container> .
+<https://editor.zazuko.com/schema/netWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/schema/netWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TruckEngine> .
+<https://editor.zazuko.com/schema/netWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<https://editor.zazuko.com/schema/netWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the net weight (mass) of this trade line item which excludes all packaging.." .
+<https://editor.zazuko.com/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#label> "netWeight" .
+<https://editor.zazuko.com/schema/notifiedTimestamp> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/notifiedTimestamp> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/notifiedTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the notification of the status update ." .
+<https://editor.zazuko.com/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Notified Timestamp" .
+<https://editor.zazuko.com/schema/origin> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/origin> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/origin> <http://www.w3.org/2000/01/rdf-schema#description> "An abbreviation for the origin of the airwaybill ." .
+<https://editor.zazuko.com/schema/origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origin" .
+<https://editor.zazuko.com/schema/Package> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/Package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Package> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical package for this trade line item." .
+<https://editor.zazuko.com/schema/Package> <http://www.w3.org/2000/01/rdf-schema#description> "A physical package for this trade line item." .
+<https://editor.zazuko.com/schema/Package> <http://www.w3.org/2000/01/rdf-schema#label> "Package" .
+<https://editor.zazuko.com/schema/Package> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/packageReference> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/schema/packageReference> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://editor.zazuko.com/schema/packageReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#description> "A packaging identifier, expressed as text, for this trade line item" .
+<https://editor.zazuko.com/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#label> "PackageReference" .
+<https://editor.zazuko.com/schema/packageType> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/schema/packageType> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://editor.zazuko.com/schema/packageType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#description> "A packaging type, expressed as text, for this trade line item" .
+<https://editor.zazuko.com/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#label> "PackageType" .
+<https://editor.zazuko.com/schema/pickupFrom> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/pickupFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Port> <http://purl.org/dc/terms/modified> "2018-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/Port> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Port> <http://www.w3.org/2000/01/rdf-schema#comment> "Any port, terminal, offshore terminal, ship and repair yard or roadstead which is normally used for the loading, unloading, repair and anchoring of ships, or any other place at which a ship can call. The word also embraces, geographically, the city or borough which serves shipping interests." .
+<https://editor.zazuko.com/schema/Port> <http://www.w3.org/2000/01/rdf-schema#label> "Port" .
+<https://editor.zazuko.com/schema/Port> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/portName> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Port> .
+<https://editor.zazuko.com/schema/portName> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://editor.zazuko.com/schema/portName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/portName> <http://www.w3.org/2000/01/rdf-schema#description> "Any port, terminal, offshore terminal, ship and repair yard or roadstead which is normally used for the loading, unloading, repair and anchoring of ships, or any other place at which a ship can call. The word also embraces, geographically, the city or borough which serves shipping interests." .
+<https://editor.zazuko.com/schema/portName> <http://www.w3.org/2000/01/rdf-schema#label> "Port Name" .
+<https://editor.zazuko.com/schema/Pressure> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/pressure> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/pressure> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/Pressure> .
+<https://editor.zazuko.com/schema/pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/pressure> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of pressure." .
+<https://editor.zazuko.com/schema/pressure> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading submitted as a track update." .
+<https://editor.zazuko.com/schema/pressure> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure" .
+<https://editor.zazuko.com/schema/pressureAltFeet> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Pressure> .
+<https://editor.zazuko.com/schema/pressureAltFeet> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/pressureAltFeet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/pressureAltFeet> <http://www.w3.org/2000/01/rdf-schema#description> "A device altitude reading in feet submitted as a track update." .
+<https://editor.zazuko.com/schema/pressureAltFeet> <http://www.w3.org/2000/01/rdf-schema#label> "Altitude in Feet" .
+<https://editor.zazuko.com/schema/pressureAltMeter> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Pressure> .
+<https://editor.zazuko.com/schema/pressureAltMeter> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/pressureAltMeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/pressureAltMeter> <http://www.w3.org/2000/01/rdf-schema#description> "A device altitude reading in meters submitted as a track update." .
+<https://editor.zazuko.com/schema/pressureAltMeter> <http://www.w3.org/2000/01/rdf-schema#label> "Altitude in Meter" .
+<https://editor.zazuko.com/schema/pressureHPascal> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Pressure> .
+<https://editor.zazuko.com/schema/pressureHPascal> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/pressureHPascal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/pressureHPascal> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading in Hecto Pascal submitted as a track update." .
+<https://editor.zazuko.com/schema/pressureHPascal> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in Hecto Pascal" .
+<https://editor.zazuko.com/schema/pressureKPascal> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Pressure> .
+<https://editor.zazuko.com/schema/pressureKPascal> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/pressureKPascal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/pressureKPascal> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading in Kilo Pascal submitted as a track update." .
+<https://editor.zazuko.com/schema/pressureKPascal> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in Kilo Pascal" .
+<https://editor.zazuko.com/schema/pressurePmb> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Pressure> .
+<https://editor.zazuko.com/schema/pressurePmb> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/pressurePmb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/pressurePmb> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading in  millibar submitted as a track update." .
+<https://editor.zazuko.com/schema/pressurePmb> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in in millibar" .
+<https://editor.zazuko.com/schema/pressurePsi> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Pressure> .
+<https://editor.zazuko.com/schema/pressurePsi> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/pressurePsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading in PSI submitted as a track update." .
+<https://editor.zazuko.com/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in PSI" .
+<https://editor.zazuko.com/schema/pta-Location> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/SeaStatusUpdate> .
+<https://editor.zazuko.com/schema/pta-Location> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/pta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel is planned to arrive at a specified location, as per port section standards." .
+<https://editor.zazuko.com/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#label> "PTA-Location" .
+<https://editor.zazuko.com/schema/ptd-Location> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/SeaStatusUpdate> .
+<https://editor.zazuko.com/schema/ptd-Location> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/ptd-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/ptd-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel is planned to depart from a specified location, as per port section standards." .
+<https://editor.zazuko.com/schema/ptd-Location> <http://www.w3.org/2000/01/rdf-schema#label> "PTD-Location" .
+<https://editor.zazuko.com/schema/quantityOfPackages> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/ShippersInstruction> .
+<https://editor.zazuko.com/schema/quantityOfPackages> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://editor.zazuko.com/schema/quantityOfPackages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#description> "The number of packages in the complete shippers instruction" .
+<https://editor.zazuko.com/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity of packages" .
+<https://editor.zazuko.com/schema/RailPort> <http://purl.org/dc/terms/modified> "2018-07-08T20:29:53.436Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/RailPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#comment> "This represents the class of a rail port. Should be used..." .
+<https://editor.zazuko.com/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#description> "Class for large railway ports" .
+<https://editor.zazuko.com/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#label> "RailPort" .
+<https://editor.zazuko.com/schema/RailroadEngine> <http://purl.org/dc/terms/modified> "2018-07-08T19:46:57.279Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/RailroadEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Unlike a waggon, this is the engine." .
+<https://editor.zazuko.com/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#description> "This is a class for a railroad engine. " .
+<https://editor.zazuko.com/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#label> "RailroadEngine" .
+<https://editor.zazuko.com/schema/RailroadWaggon> <http://purl.org/dc/terms/modified> "2018-07-08T20:08:22.459Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/RailroadWaggon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#comment> "Each waggon of the railroad should have an instance of this class." .
+<https://editor.zazuko.com/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#description> "This is a waggon of the railroad" .
+<https://editor.zazuko.com/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#label> "RailroadWaggon" .
+<https://editor.zazuko.com/schema/RailStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/RailStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of rail." .
+<https://editor.zazuko.com/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Status Update" .
+<https://editor.zazuko.com/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/rejectionReason> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/AirStatusUpdate> .
+<https://editor.zazuko.com/schema/rejectionReason> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/rejectionReason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/rejectionReason> <http://www.w3.org/2000/01/rdf-schema#description> "This is why the MAWB was rejected ." .
+<https://editor.zazuko.com/schema/rejectionReason> <http://www.w3.org/2000/01/rdf-schema#label> "Rejection Reason" .
+<https://editor.zazuko.com/schema/requestedDeliveryDate> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/requestedDeliveryDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/requestedDeliveryDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#description> "Ultimate Ship To Delivery Date Time." .
+<https://editor.zazuko.com/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#label> "RequestedDeliveryDate" .
+<https://editor.zazuko.com/schema/requestedPickupDate> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/requestedPickupDate> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/requestedPickupDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#description> "A date, time, date time, or other date time value when this trade delivery is available for pick-up." .
+<https://editor.zazuko.com/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#label> "RequestedPickupDate" .
+<https://editor.zazuko.com/schema/RoadStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/RoadStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/RoadStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of road." .
+<https://editor.zazuko.com/schema/RoadStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Road Status Update" .
+<https://editor.zazuko.com/schema/RoadStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/SeaStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/seaStatusUpdate> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/seaStatusUpdate> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/SeaStatusUpdate> .
+<https://editor.zazuko.com/schema/seaStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/SeaStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/seaStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of sea." .
+<https://editor.zazuko.com/schema/seaStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#description> "A status update on a logistics object in the transport mode of Sea." .
+<https://editor.zazuko.com/schema/seaStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Sea Status Update" .
+<https://editor.zazuko.com/schema/seller> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/seller> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/seller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/seller> <http://www.w3.org/2000/01/rdf-schema#description> "The Seller party for this consignment." .
+<https://editor.zazuko.com/schema/seller> <http://www.w3.org/2000/01/rdf-schema#label> "Buyer" .
+<https://editor.zazuko.com/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition. Here is one from shippingsolutions.com - The Shipper's Letter of Instruction helps to convey specific instructions from the exporter to his agent, usually an international freight forwarder." .
+<https://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Instruction" .
+<https://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/ShippersInstruction> <https://editor.zazuko.com/schema/classStatus> <https://editor.zazuko.com/schema/Draft> .
+<https://editor.zazuko.com/schema/ShippersInstruction> <https://editor.zazuko.com/schema/example> "# A shippers instruction in real life\n\n```\n@prefix tcf <http://localhost:8080/schema/> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n<instruction> a tcf:ShippersInstruction ;\n  rdfs:label \"This is a shippers instruction\" .\n```\n" .
+<https://editor.zazuko.com/schema/size> <http://purl.org/dc/terms/modified> "2018-06-06T19:26:33.400Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/size> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/EmptyGood> .
+<https://editor.zazuko.com/schema/size> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
+<https://editor.zazuko.com/schema/size> <http://www.w3.org/2000/01/rdf-schema#label> "size" .
+<https://editor.zazuko.com/schema/Status> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/status> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/status> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://editor.zazuko.com/schema/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Status> <http://www.w3.org/2000/01/rdf-schema#comment> "A status on a logistics object of different states such as departed, arrived, deviation, etc." .
+<https://editor.zazuko.com/schema/status> <http://www.w3.org/2000/01/rdf-schema#description> "An abbreviation for the status submitted ." .
+<https://editor.zazuko.com/schema/status> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+<https://editor.zazuko.com/schema/Status> <http://www.w3.org/2000/01/rdf-schema#label> "StatusUpdate" .
+<https://editor.zazuko.com/schema/Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/statusBy> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/statusBy> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/statusBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/statusBy> <http://www.w3.org/2000/01/rdf-schema#description> "Which organization has submitted the status update ." .
+<https://editor.zazuko.com/schema/statusBy> <http://www.w3.org/2000/01/rdf-schema#label> "Status By" .
+<https://editor.zazuko.com/schema/StatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/StatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/StatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object of different events such as departed, arrived, deviation, etc." .
+<https://editor.zazuko.com/schema/StatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update" .
+<https://editor.zazuko.com/schema/statusUpdateTimestamp> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/schema/statusUpdateTimestamp> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/statusUpdateTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/statusUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the status update ." .
+<https://editor.zazuko.com/schema/statusUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Timestamp" .
+<https://editor.zazuko.com/schema/Temperature> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/temperature> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/temperature> <http://schema.org/rangeIncludes> <https://editor.zazuko.com/schema/Temperature> .
+<https://editor.zazuko.com/schema/temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Temperature> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of temperature." .
+<https://editor.zazuko.com/schema/temperature> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading submitted as a track update from a device." .
+<https://editor.zazuko.com/schema/temperature> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature" .
+<https://editor.zazuko.com/schema/Temperature> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature" .
+<https://editor.zazuko.com/schema/temperatureCelsius> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Temperature> .
+<https://editor.zazuko.com/schema/temperatureCelsius> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/temperatureCelsius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/temperatureCelsius> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading in Celsius submitted as a track update from a device." .
+<https://editor.zazuko.com/schema/temperatureCelsius> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature in Celsius" .
+<https://editor.zazuko.com/schema/temperatureFahrenheit> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Temperature> .
+<https://editor.zazuko.com/schema/temperatureFahrenheit> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/temperatureFahrenheit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/temperatureFahrenheit> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading in Fahrenheit submitted as a track update from a device." .
+<https://editor.zazuko.com/schema/temperatureFahrenheit> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature in Fahrenheit" .
+<https://editor.zazuko.com/schema/temperatureKelvin> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Temperature> .
+<https://editor.zazuko.com/schema/temperatureKelvin> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://editor.zazuko.com/schema/temperatureKelvin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading in Kelvin submitted as a track update from a device." .
+<https://editor.zazuko.com/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature in Kelvin" .
+<https://editor.zazuko.com/schema/test> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Port> .
+<https://editor.zazuko.com/schema/test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/test> <http://www.w3.org/2000/01/rdf-schema#comment> "test" .
+<https://editor.zazuko.com/schema/test> <http://www.w3.org/2000/01/rdf-schema#label> "Test" .
+<https://editor.zazuko.com/schema/TestClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/TestClass> <http://www.w3.org/2000/01/rdf-schema#comment> "To test a class." .
+<https://editor.zazuko.com/schema/TestClass> <http://www.w3.org/2000/01/rdf-schema#label> "Test Class" .
+<https://editor.zazuko.com/schema/TrackUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/TrackUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of different sensoring data such as location, temperature, humidity, accelerometer, or pressure." .
+<https://editor.zazuko.com/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "TrackUpdate" .
+<https://editor.zazuko.com/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/trackUpdateBy> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/trackUpdateBy> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
+<https://editor.zazuko.com/schema/trackUpdateBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/trackUpdateBy> <http://www.w3.org/2000/01/rdf-schema#description> "Which organization has submitted the track update ." .
+<https://editor.zazuko.com/schema/trackUpdateBy> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update " .
+<https://editor.zazuko.com/schema/trackUpdateTimestamp> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/schema/trackUpdateTimestamp> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
+<https://editor.zazuko.com/schema/trackUpdateTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/trackUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the track update ." .
+<https://editor.zazuko.com/schema/trackUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Timestamp" .
+<https://editor.zazuko.com/schema/transportAgreementLaneID> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/transportAgreementLaneID> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#description> "TBD." .
+<https://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#label> "TransportAgreementLaneID" .
+<https://editor.zazuko.com/schema/Truck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Truck> <http://www.w3.org/2000/01/rdf-schema#comment> "A Vehicle of a certain size that can transport containers" .
+<https://editor.zazuko.com/schema/Truck> <http://www.w3.org/2000/01/rdf-schema#label> "Truck" .
+<https://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the engine of a truck" .
+<https://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/2000/01/rdf-schema#label> "TruckEngine" .
+<https://editor.zazuko.com/schema/Vessel> <http://purl.org/dc/terms/modified> "2018-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/vessel> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Vessel> .
+<https://editor.zazuko.com/schema/vessel> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://editor.zazuko.com/schema/vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#comment> "Vessel is defined as watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water." .
+<https://editor.zazuko.com/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#description> "Vessel is defined as watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water." .
+<https://editor.zazuko.com/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#label> "Vessel" .
+<https://editor.zazuko.com/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#label> "Vessel" .
+<https://editor.zazuko.com/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/vesselType> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Vessel> .
+<https://editor.zazuko.com/schema/vesselType> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://editor.zazuko.com/schema/vesselType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#description> "The purpose of the vessel. A comprehensive list of unique vessel types exists in the IHS Fairplay’s comprehensive “statcode”." .
+<https://editor.zazuko.com/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#label> "Vessel Type" .
+<https://editor.zazuko.com/schema/visibleLight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Light> .
+<https://editor.zazuko.com/schema/visibleLight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#float> .
+<https://editor.zazuko.com/schema/visibleLight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/visibleLight> <http://www.w3.org/2000/01/rdf-schema#description> "A visible light reading ubmitted as a track update." .
+<https://editor.zazuko.com/schema/visibleLight> <http://www.w3.org/2000/01/rdf-schema#label> "Visible Light" .
+<https://editor.zazuko.com/schema/volume> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/schema/volume> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/ShippersInstruction> .
+<https://editor.zazuko.com/schema/volume> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<https://editor.zazuko.com/schema/volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/volume> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross volume of this trade line item." .
+<https://editor.zazuko.com/schema/volume> <http://www.w3.org/2000/01/rdf-schema#description> "The volume related to the shippers instruction" .
+<https://editor.zazuko.com/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
+<https://editor.zazuko.com/schema/weight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/schema/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/weight> <http://www.w3.org/2000/01/rdf-schema#comment> "Weight of a consignment, in kg." .
+<https://editor.zazuko.com/schema/weight> <http://www.w3.org/2000/01/rdf-schema#label> "weight" .
+<https://editor.zazuko.com/schema/weight> <http://www.w3.org/2004/02/skos/core#example> "<http://post.fake/consignment/12> <https://editor.zazuko.com/schema/weight> \"12\"^^xsd:decimal;" .
+<https://editor.zazuko.com/schema/weight> <http://www.w3.org/2004/02/skos/core#note> "The **weight** …"^^<http://media-type.described.at/text/markdown> .
+<https://editor.zazuko.com/schema/wheelArrangement> <http://purl.org/dc/terms/modified> "2018-07-08T19:54:35.313Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/schema/wheelArrangement> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailroadEngine> .
+<https://editor.zazuko.com/schema/wheelArrangement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#comment> "Wheel arrangement in UIC classification, also known as German classification or German system." .
+<https://editor.zazuko.com/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#description> "Wheel arrangement in UIC classification" .
+<https://editor.zazuko.com/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#label> "wheelArrangement" .
+<https://editor.zazuko.com/schema/wheelArrangement> <https://editor.zazuko.com/schema/example> "<http://www.example.org/engine/1234> <http://localhost:8080/schema/wheelArangement> \"12334\"" .
+<https://editor.zazuko.com/schema/width> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/schema/width> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<https://editor.zazuko.com/schema/width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/width> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the width of this trade line item." .
+<https://editor.zazuko.com/schema/width> <http://www.w3.org/2000/01/rdf-schema#label> "Width" .
+<https://editor.zazuko.com/schema/x_gvt> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Accelerometer> .
+<https://editor.zazuko.com/schema/x_gvt> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#float> .
+<https://editor.zazuko.com/schema/x_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/x_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer x-axis reading submitted as a track update." .
+<https://editor.zazuko.com/schema/x_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "X-axis acceleration" .
+<https://editor.zazuko.com/schema/y_gvt> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Accelerometer> .
+<https://editor.zazuko.com/schema/y_gvt> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#float> .
+<https://editor.zazuko.com/schema/y_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer y-axis reading submitted as a track update." .
+<https://editor.zazuko.com/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "Y-axis acceleration" .
+<https://editor.zazuko.com/schema/z_gvt> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Accelerometer> .
+<https://editor.zazuko.com/schema/z_gvt> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#float> .
+<https://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer z-axis reading submitted as a track update." .
+<https://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "Z-axis acceleration" .
