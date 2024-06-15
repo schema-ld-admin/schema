@@ -1,61 +1,87 @@
-_:b57_b39_b77_b61_b63_b59_b219_b151_b147_b13_b7_b13_b59_b55_b51_b45_b41_b35_b13_b7_b37_b193_b63_b93_b87_b11_b23_b21_b15_b15_b2 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "89" .
-<https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/ChemicalCompound> .
-<https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/ChemicalElement> .
-<https://schema.ld.admin.ch/common> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LindasDataset> .
-<https://schema.ld.admin.ch/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/common> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bafu> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bar> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bfs> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/bk> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/ech> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/foj> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/nb> .
-<https://schema.ld.admin.ch/office/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/office/sfoe> .
-<https://schema.ld.admin.ch/office/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/> <http://www.w3.org/2000/01/rdf-schema#comment> "Every class of the Swiss Federal Linked Data Schema are in the authority of a specific federal office." .
-<https://schema.ld.admin.ch/office/> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Offices" .
-<https://schema.ld.admin.ch/office/bafu> <http://schema.org/hasPart> <https://schema.ld.admin.ch/SharedDimension> .
-<https://schema.ld.admin.ch/office/bafu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/bafu> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Office for the Environment" .
-<https://schema.ld.admin.ch/office/bar> <http://schema.org/hasPart> <https://schema.ld.admin.ch/RecordResource> .
-<https://schema.ld.admin.ch/office/bar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/bar> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Federal Archives" .
-<https://schema.ld.admin.ch/office/bfs> <http://schema.org/hasPart> <https://schema.ld.admin.ch/MunicipalityVersion> .
-<https://schema.ld.admin.ch/office/bfs> <http://schema.org/hasPart> <https://schema.ld.admin.ch/PoliticalMunicipality> .
-<https://schema.ld.admin.ch/office/bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/bfs> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Statistical Office" .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Glossary> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/InProgressEntry> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/LegislaturePeriod> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Name> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Phraseology> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Session> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Term> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/TermDomain> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/TerminologyCollection> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/TerminologyOffice> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/TermSubDomain> .
-<https://schema.ld.admin.ch/office/bk> <http://schema.org/hasPart> <https://schema.ld.admin.ch/ValidatedEntry> .
-<https://schema.ld.admin.ch/office/bk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/bk> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Chancellery" .
-<https://schema.ld.admin.ch/office/ech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/ech> <http://www.w3.org/2000/01/rdf-schema#label> "eCH Standards" .
-<https://schema.ld.admin.ch/office/foj> <http://schema.org/hasPart> <https://schema.ld.admin.ch/ZefixOrganisation> .
-<https://schema.ld.admin.ch/office/foj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/foj> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Office of Justice" .
-<https://schema.ld.admin.ch/office/nb> <http://schema.org/hasPart> <https://schema.ld.admin.ch/Isil> .
-<https://schema.ld.admin.ch/office/nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/nb> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss National Library" .
-<https://schema.ld.admin.ch/office/sfoe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/office/sfoe> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Federal Office of Energy" .
-<https://schema.ld.admin.ch/tests/> <http://schema.org/hasPart> <https://schema.ld.admin.ch/tests/first-steps> .
-<https://schema.ld.admin.ch/tests/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#comment> "Space availble to test adding new Classes and Properties to get familiar with the schema editor." .
-<https://schema.ld.admin.ch/tests/> <http://www.w3.org/2000/01/rdf-schema#label> "Test Sandbox" .
-<https://schema.ld.admin.ch/tests/first-steps> <http://schema.org/hasPart> <https://schema.ld.admin.ch/TestPandemicObservation> .
-<https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#comment> "Classes which are used to test the Schema Manager." .
-<https://schema.ld.admin.ch/tests/first-steps> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "4" .
+<https://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "1" .
+<https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/CargoHandlersDomain> .
+<https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/CarriersDomain> .
+<https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/CustomsDomain> .
+<https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/ForwarderDomain> .
+<https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/MaritimeDomain> .
+<https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/RailDomain> .
+<https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/ShippersDomain> .
+<https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/TruckersDomain> .
+<https://editor.zazuko.com/domain/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/> <http://www.w3.org/2000/01/rdf-schema#label> "Domains" .
+<https://editor.zazuko.com/domain/CargoHandlersDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/CargoHandlersDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/CargoHandlersDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Cargo Handlers Domain, you will find data typically from the following documents; TBD." .
+<https://editor.zazuko.com/domain/CargoHandlersDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Handlers Domain" .
+<https://editor.zazuko.com/domain/CarriersDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/CarriersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/FlightManifest> .
+<https://editor.zazuko.com/domain/CarriersDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/CarriersDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Carriers Domain, you will find data typically from the following documents; Flight Manifest, Freight Booked List, NOTOC." .
+<https://editor.zazuko.com/domain/CarriersDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Carriers Domain" .
+<https://editor.zazuko.com/domain/CustomsDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/CustomsDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/CustomsDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Customs Domain, you will find data typically from the following documents; TBD." .
+<https://editor.zazuko.com/domain/CustomsDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Domain" .
+<https://editor.zazuko.com/domain/ForwarderDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/ForwarderDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/Forwarder> .
+<https://editor.zazuko.com/domain/ForwarderDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/HAWB> .
+<https://editor.zazuko.com/domain/ForwarderDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/MAWB> .
+<https://editor.zazuko.com/domain/ForwarderDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/ForwarderDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Forwarders Domain, you will find data typically from the following documents; House Waybill, Waybill, House Manifest, Consignment Security Declaration, Booking." .
+<https://editor.zazuko.com/domain/ForwarderDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Domain" .
+<https://editor.zazuko.com/domain/MaritimeDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/MaritimeDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/Port> .
+<https://editor.zazuko.com/domain/MaritimeDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/Vessel> .
+<https://editor.zazuko.com/domain/MaritimeDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/MaritimeDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Maritime Domain, you will find data typically from the following documents; Bill-of-Lading, Sea Waybill." .
+<https://editor.zazuko.com/domain/MaritimeDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Domain" .
+<https://editor.zazuko.com/domain/org/EricssonAB> <http://schema.org/url> <http://www.ericsson.com/> .
+<https://editor.zazuko.com/domain/org/EricssonAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<https://editor.zazuko.com/domain/org/EricssonAB> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson AB" .
+<https://editor.zazuko.com/domain/org/FinnairAbp> <http://schema.org/url> <http://www.finnair.com/> .
+<https://editor.zazuko.com/domain/org/FinnairAbp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<https://editor.zazuko.com/domain/org/FinnairAbp> <http://www.w3.org/2000/01/rdf-schema#label> "Finnair Abp" .
+<https://editor.zazuko.com/domain/org/PanalpinaAB> <http://schema.org/url> <http://www.panalpina.com/> .
+<https://editor.zazuko.com/domain/org/PanalpinaAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<https://editor.zazuko.com/domain/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
+<https://editor.zazuko.com/domain/RailDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/RailDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/BowelCancer> .
+<https://editor.zazuko.com/domain/RailDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/RailPort> .
+<https://editor.zazuko.com/domain/RailDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/RailroadEngine> .
+<https://editor.zazuko.com/domain/RailDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/RailroadWaggon> .
+<https://editor.zazuko.com/domain/RailDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/RailDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Rail Domain, you will find data typically from the following documents; Rail Consignment Note." .
+<https://editor.zazuko.com/domain/RailDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Domain" .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://schema.org/contributor> <https://editor.zazuko.com/domain/org/PanalpinaAB> .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/Consignment> .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/DangerousGoodsDeclaration> .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/EmptyGood> .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/Package> .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/ShippersInstruction> .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Shippers Domain, you will find data typically from the following documents; Shippers Instruction, Packing List, Commercial Invoice, Certificate of Origin, Dangerous Goods Certificate, Health Certificate." .
+<https://editor.zazuko.com/domain/ShippersDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Domain" .
+<https://editor.zazuko.com/domain/StatusUpdateDomain> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/StatusUpdateDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/StatusUpdate> .
+<https://editor.zazuko.com/domain/StatusUpdateDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/StatusUpdateDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<https://editor.zazuko.com/domain/StatusUpdateDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Domain" .
+<https://editor.zazuko.com/domain/TrackUpdateDomain> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/TrackUpdateDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/TestClass> .
+<https://editor.zazuko.com/domain/TrackUpdateDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/TrackUpdate> .
+<https://editor.zazuko.com/domain/TrackUpdateDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/TrackUpdateDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<https://editor.zazuko.com/domain/TrackUpdateDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Domain" .
+<https://editor.zazuko.com/domain/TruckersDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/TruckersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/Container> .
+<https://editor.zazuko.com/domain/TruckersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/Truck> .
+<https://editor.zazuko.com/domain/TruckersDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/TruckEngine> .
+<https://editor.zazuko.com/domain/TruckersDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/domain/TruckersDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Trucker Domain, you will find data typically from the following documents; TBD." .
+<https://editor.zazuko.com/domain/TruckersDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Truckers Domain" .
+<https://editor.zazuko.com/updates/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/StatusUpdateDomain> .
+<https://editor.zazuko.com/updates/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/TrackUpdateDomain> .
+<https://editor.zazuko.com/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://editor.zazuko.com/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
